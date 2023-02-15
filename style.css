@@ -1,1 +1,49 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300&display=swap");/*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300&display=swap");
+
+/**
+*! Color variables
+**/
+
+/**
+*! Removing default browser style
+**/
+* {
+  box-sizing: border-box;
+}
+
+* body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+* a {
+  text-decoration: none;
+}
+
+/**
+*! Header styles inputs here
+**/
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  height: 1.25rem;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  color: #6070ff;
+}
+
+[class^=bar] {
+  display: block;
+  background-color: #6070ff;
+  width: 1.875rem;
+  height: 0.1875rem;
+  margin: 0.3125rem;
+}
