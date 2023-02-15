@@ -31,7 +31,7 @@ After you're finished please remove all the comments and instructions!
   <!-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
   <br/>
 
-  <h3><b>Hello_World</b></h3>
+  <h3><b>Personal Portfolio</b></h3>
 
 </div>
 
@@ -61,11 +61,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello_World] <a name="about-project"></a>
+# 📖 [Personal Portfolio] <a name="about-project"></a>
 
 This project is about Microverse Linters configuration and ensuring that all linters checks pass, and also add & display a simple HTML text and basic CSS styling.  
 
-**[Hello_World]** is a simple massage for linter practice
+**[Personal Portfolio]** is a simple massage for linter practice
 
 ## 🛠 Built With <a name="built-with"></a>
 
