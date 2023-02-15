@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300&display=swap");
 
 /**
 *! Color variables
 **/
-$color-1 :#6070ff;
+$color-1: #6070ff;
+$color-2: #172b4d;
+$color-3: #344563;
+$color-4: #7f8cff;
 
 /**
 *! Removing default browser style
@@ -13,12 +16,16 @@ $color-1 :#6070ff;
   box-sizing: border-box;
 
   body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
   }
 
   a {
     text-decoration: none;
+  }
+
+  li {
+    list-style: none;
   }
 }
 
@@ -29,18 +36,14 @@ $color-1 :#6070ff;
 .navbar {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
 }
 
 .logo {
-  //   width: 4.75rem;
-  display: flex;
-  align-items: center;
   font-weight: 700;
-  height: 1.25rem;
-  font-size: 2.5rem;
-  line-height: 3.25rem;
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  margin-left: 1rem;
   color: $color-1;
 }
 
@@ -50,4 +53,62 @@ $color-1 :#6070ff;
   width: 1.875rem;
   height: 0.1875rem;
   margin: 0.3125rem;
+  margin-left: 15rem;
+}
+
+/**
+*! Main section styles inputs here
+**/
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/header-shapes\ mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-color: #ffff;
+  width: 375px;
+  height: 580px;
+}
+
+.header__title {
+  width: 327px;
+  height: 150px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: $color-2;
+}
+
+.header__description {
+  width: 327px;
+  height: 146px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  color: $color-3;
+}
+
+.header__connect {
+  position: relative;
+  right: 103px;
+  width: 117px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: $color-4;
+}
+
+.header__social__media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  right: 103px;
+  gap: 15px;
+  margin: 0;
 }
