@@ -63,9 +63,9 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Personal Portfolio] <a name="about-project"></a>
 
-This project is about Microverse Linters configuration and ensuring that all linters checks pass, and also add & display a simple HTML text and basic CSS styling.  
+This project is about my personal portfolio based on figma design provided by Microverse.    
 
-**[Personal Portfolio]** is a simple massage for linter practice
+**[Personal Portfolio]** is a mobile version personal portfolio with a synopsis about myself and projects worked on.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -100,8 +100,8 @@ This project is about Microverse Linters configuration and ensuring that all lin
 ### Key Features <a name="key-features"></a>
 
 - **[Linters Setup]**
-- **[Follow HTML and CSS best practice]**
-- **[Display Text]**
+- **[Display text and background image]**
+- **[Display links to my social media accounts]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -147,7 +147,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:tsheporamantso/Hello_World.git
+  git clone git@github.com:tsheporamantso/portfolio.git
 ```
 
 
@@ -202,7 +202,7 @@ GitHub Pages
 Example: 
 
 ```sh
-https://tsheporamantso.github.io/Hello_World/
+https://tsheporamantso.github.io/portfolio/
 ```
 
 
@@ -224,8 +224,9 @@ https://tsheporamantso.github.io/Hello_World/
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Web Accessebility and Anamation]**
-- [ ] **[Media query]**
+- [ ] **[Projects Section, About Myself Section and Contact form]**
+- [ ] **[Media Query for desktop screen]**
+- [ ] **[Web Accessebility and Animations]**
 - [ ] **[JavaScript functionality]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -236,7 +237,7 @@ https://tsheporamantso.github.io/Hello_World/
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [https://github.com/tsheporamantso/Hello_World/issues](../../issues/).
+Feel free to check the [https://github.com/tsheporamantso/portfolio/issues](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -278,6 +279,9 @@ I would like to thank Microverse for this exercise.
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
