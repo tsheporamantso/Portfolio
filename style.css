@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300&display=swap");
+
+/**
+*! Color variables
+**/
+
+/**
+*! Removing default browser style
+**/
+* {
+  box-sizing: border-box;
+}
+
+* body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+* a {
+  text-decoration: none;
+}
+
+* li {
+  list-style: none;
+}
+
+/**
+*! Header styles inputs here
+**/
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hamburger {
+  cursor: pointer;
+}
+
+.hamburger [class^=bar] {
+  display: block;
+  background-color: #6070ff;
+  width: 1.875rem;
+  height: 0.1875rem;
+  margin: 0.3125rem;
+  margin-right: 2rem;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  margin-left: 1rem;
+  color: #6070ff;
+  display: flex;
+  align-items: center;
+}
+
+/**
+*! Main section styles inputs here
+**/
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/header-shapes mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-color: white;
+  height: 36.25rem;
+}
+
+.header__title {
+  width: 20.4375rem;
+  height: 9.375rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  color: #172b4d;
+}
+
+.header__description {
+  width: 20.4375rem;
+  height: 9.125rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0;
+  color: #344563;
+}
+
+.header__connect {
+  position: relative;
+  right: 6.4375rem;
+  width: 7.3125rem;
+  height: 1.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #7f8cff;
+}
+
+.header__social__media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  right: 6.4375rem;
+  gap: 15px;
+  margin: 0;
+}
