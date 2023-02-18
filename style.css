@@ -108,6 +108,7 @@
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.5rem;
+  margin-top: 5px;
   color: #7f8cff;
 }
 
@@ -118,7 +119,7 @@
   position: relative;
   right: 6.4375rem;
   gap: 15px;
-  margin: 0;
+  margin-top: 10px;
 }
 
 /**
@@ -155,8 +156,8 @@
 .client {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+  gap: 18px;
   margin: 0;
   padding: 0;
 }
@@ -199,7 +200,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  gap: 15px;
   padding: 0;
   margin: 0;
 }
@@ -213,24 +214,18 @@
 }
 
 .html {
-  position: relative;
-  left: 5px;
   border-radius: 8px;
   padding: 4px 12px;
   background-color: #ebebff;
 }
 
 .css {
-  position: relative;
-  right: 42px;
   border-radius: 8px;
   padding: 4px 12px;
   background-color: #ebebff;
 }
 
 .javascript {
-  position: relative;
-  right: 89px;
   border-radius: 8px;
   padding: 4px 12px;
   background-color: #ebebff;
@@ -256,6 +251,20 @@
   align-items: center;
   box-sizing: border-box;
   background-color: #6070ff;
+  margin-top: 15px;
+  padding: 12px;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+
+.btn:active {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #2230d2;
   margin-top: 15px;
   padding: 12px;
   border: 1px solid #7f8cff;
@@ -305,7 +314,7 @@
 .about__myself__description {
   font-weight: 400;
   font-size: 16px;
-  margin: 0 10px;
+  margin: 10px;
   padding: 0;
   color: #344563;
 }
@@ -321,9 +330,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
-  margin: 0;
-  padding: 0;
+  gap: 15px;
+  padding-left: 19px;
 }
 
 .btn2 {
@@ -357,6 +365,21 @@
   max-width: max-content;
 }
 
+.btn2:active {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #2230d2;
+  margin-left: 10px;
+  margin-top: 15px;
+  padding: 12px;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+
 .resume {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -376,19 +399,24 @@
   justify-content: space-between;
 }
 
+.about__myself__language {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+}
+
 .language-list {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  gap: 20px;
   border-radius: 8px;
-  margin-left: 10px;
+  margin: 20px 30px 0 30px;
   padding: 10px;
   background-color: #f7f7f9;
 }
 
 .code {
-  margin-right: 163px;
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -396,14 +424,19 @@
   color: #253858;
 }
 
-.html2 {
-  position: relative;
-  right: 36px;
+.framework {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+  margin: 0;
 }
 
-.css2 {
+.skills {
   position: relative;
-  right: 41px;
+  font-weight: 500;
+  left: 40px;
+  font-size: 20px;
+  color: #000;
 }
 
 .first-frame {
@@ -421,5 +454,18 @@
 }
 
 .bottom-separator {
-  margin: 0;
+  margin: 0 30px;
+  padding-right: 10px;
+}
+
+.drop__down__icon {
+  margin-right: 45px;
+}
+
+.right__icon {
+  margin-right: 45px;
+}
+
+.second__icon {
+  margin-right: 45px;
 }

@@ -15,6 +15,7 @@ $color-9: #396df2;
 $color-10: #e5e5e5;
 $color-11: #f7f7f9;
 $color-12: #253858;
+$color-13: #2230d2;
 
 /**
 *! Removing default browser style
@@ -123,6 +124,7 @@ $color-12: #253858;
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.5rem;
+  margin-top: 5px;
   color: $color-4;
 }
 
@@ -133,7 +135,7 @@ $color-12: #253858;
   position: relative;
   right: 6.4375rem;
   gap: 15px;
-  margin: 0;
+  margin-top: 10px;
 }
 
 /**
@@ -171,8 +173,8 @@ $color-12: #253858;
 .client {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+  gap: 18px;
   margin: 0;
   padding: 0;
 }
@@ -215,7 +217,7 @@ $color-12: #253858;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  gap: 15px;
   padding: 0;
   margin: 0;
 }
@@ -229,24 +231,18 @@ $color-12: #253858;
 }
 
 .html {
-  position: relative;
-  left: 5px;
   border-radius: 8px;
   padding: 4px 12px;
   background-color: $color-7;
 }
 
 .css {
-  position: relative;
-  right: 42px;
   border-radius: 8px;
   padding: 4px 12px;
   background-color: $color-7;
 }
 
 .javascript {
-  position: relative;
-  right: 89px;
   border-radius: 8px;
   padding: 4px 12px;
   background-color: $color-7;
@@ -271,6 +267,19 @@ $color-12: #253858;
   align-items: center;
   box-sizing: border-box;
   background-color: $color-1;
+  margin-top: 15px;
+  padding: 12px;
+  border: 1px solid $color-4;
+  border-radius: 8px;
+  max-width: max-content;
+}
+
+.btn:active {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: $color-13;
   margin-top: 15px;
   padding: 12px;
   border: 1px solid $color-4;
@@ -320,7 +329,7 @@ $color-12: #253858;
 .about__myself__description {
   font-weight: 400;
   font-size: 16px;
-  margin: 0 10px;
+  margin: 10px;
   padding: 0;
   color: $color-3;
 }
@@ -336,9 +345,8 @@ $color-12: #253858;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
-  margin: 0;
-  padding: 0;
+  gap: 15px;
+  padding-left: 19px;
 }
 
 .btn2 {
@@ -370,6 +378,20 @@ $color-12: #253858;
   max-width: max-content;
 }
 
+.btn2:active {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: $color-13;
+  margin-left: 10px;
+  margin-top: 15px;
+  padding: 12px;
+  border: 1px solid $color-4;
+  border-radius: 8px;
+  max-width: max-content;
+}
+
 .resume {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
@@ -389,19 +411,24 @@ $color-12: #253858;
   justify-content: space-between;
 }
 
+.about__myself__language {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+}
+
 .language-list {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  gap: 20px;
   border-radius: 8px;
-  margin-left: 10px;
+  margin: 20px 30px 0 30px;
   padding: 10px;
   background-color: $color-11;
 }
 
 .code {
-  margin-right: 163px;
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -409,14 +436,19 @@ $color-12: #253858;
   color: $color-12;
 }
 
-.html2 {
-  position: relative;
-  right: 36px;
+.framework {
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
+  margin: 0;
 }
 
-.css2 {
+.skills {
   position: relative;
-  right: 41px;
+  font-weight: 500;
+  left: 40px;
+  font-size: 20px;
+  color: #000;
 }
 
 .first-frame {
@@ -434,5 +466,18 @@ $color-12: #253858;
 }
 
 .bottom-separator {
-  margin: 0;
+  margin: 0 30px;
+  padding-right: 10px;
+}
+
+.drop__down__icon {
+  margin-right: 45px;
+}
+
+.right__icon {
+  margin-right: 45px;
+}
+
+.second__icon {
+  margin-right: 45px;
 }
