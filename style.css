@@ -191,10 +191,6 @@
 }
 
 .tags {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 15px;
   padding: 0;
   margin: 0;
 }
@@ -208,18 +204,23 @@
 }
 
 .html {
+  float: left;
   border-radius: 8px;
   padding: 4px 12px;
   background-color: #ebebff;
 }
 
 .css {
+  float: left;
+  margin-left: 10px;
   border-radius: 8px;
   padding: 4px 12px;
   background-color: #ebebff;
 }
 
 .javascript {
+  float: left;
+  margin-left: 10px;
   border-radius: 8px;
   padding: 4px 12px;
   background-color: #ebebff;

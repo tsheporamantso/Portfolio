@@ -214,10 +214,10 @@ $color-13: #2230d2;
 }
 
 .tags {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 15px;
+  // display: flex;
+  // flex-direction: row;
+  // align-items: center;
+  // gap: 15px;
   padding: 0;
   margin: 0;
 }
@@ -231,18 +231,23 @@ $color-13: #2230d2;
 }
 
 .html {
+  float: left;
   border-radius: 8px;
   padding: 4px 12px;
   background-color: $color-7;
 }
 
 .css {
+  float: left;
+  margin-left: 10px;
   border-radius: 8px;
   padding: 4px 12px;
   background-color: $color-7;
 }
 
 .javascript {
+  float: left;
+  margin-left: 10px;
   border-radius: 8px;
   padding: 4px 12px;
   background-color: $color-7;
