@@ -558,10 +558,54 @@ textarea::placeholder {
   padding: 16px;
 }
 
-.btn3 {
+.get__in__touch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 12px;
   border: 1px solid #7f8cff;
   border-radius: 8px;
-  width: 140px;
-  height: 47px;
-  background-color: white;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+
+.get__in__touch:hover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #6070ff;
+  padding: 12px;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+
+.get__in__touch:active {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #2230d2;
+  padding: 12px;
+  border: 1px solid #7f8cff;
+  border-radius: 8px;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+
+.btn3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+}
+
+.btn3:hover {
+  color: white;
 }/*# sourceMappingURL=style.css.map */

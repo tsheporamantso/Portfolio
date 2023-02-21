@@ -567,12 +567,57 @@ textarea::placeholder {
   padding: 16px;
 }
 
-.btn3 {
+.get__in__touch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #ffff;
+  // margin-top: 15px;
+  padding: 12px;
   border: 1px solid $color-4;
   border-radius: 8px;
-  width: 140px;
-  height: 47px;
-  // padding: 12px 16px;
-  background-color: #ffff;
+  max-width: max-content;
 }
+
+.get__in__touch:hover {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: $color-1;
+  // margin-top: 15px;
+  padding: 12px;
+  border: 1px solid $color-4;
+  border-radius: 8px;
+  max-width: max-content;
+}
+
+.get__in__touch:active {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: $color-13;
+  // margin-top: 15px;
+  padding: 12px;
+  border: 1px solid $color-4;
+  border-radius: 8px;
+  max-width: max-content;
+}
+
+.btn3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+   letter-spacing: 0.03em;
+  color: $color-9;
+}
+
+.btn3:hover {
+  color: #ffff;
+}
+
+
 
