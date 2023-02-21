@@ -570,28 +570,9 @@ textarea::placeholder {
 .btn3 {
   border: 1px solid $color-4;
   border-radius: 8px;
-  width: 142px;
-  height: 48px;
-  padding: 12px 16px;
+  width: 140px;
+  height: 47px;
+  // padding: 12px 16px;
   background-color: #ffff;
 }
 
-.btn3:hover {
-  background-color: $color-1;
-}
-
-.btn3:active {
-  background-color: $color-13;
-}
-
-.get__in__touch{
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-  font-size: 17px;
-  // padding: 12px 16px 12px 16px;
-  color: $color-1;
- }
-
- .get__in__touch:hover {
-  color: #ffff;
- }
