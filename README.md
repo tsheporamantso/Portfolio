@@ -218,6 +218,12 @@ https://tsheporamantso.github.io/portfolio/
 - Twitter: [@ramgt001](https://twitter.com/ramgt001)
 - LinkedIn: [Tshepo Gladwin Ramantso](https://www.linkedin.com/in/tshepo-ramantso-b6a35433/)
 
+👤 **Mercy Mugambi**
+
+- GitHub: [@mercymugambi](https://github.com/mercymugambi)
+- Twitter: [@mercymugambi15](https://twitter.com/MercyMugambi15)
+- LinkedIn: [@mercymugambi](https://www.linkedin.com/in/mercymugambi/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
