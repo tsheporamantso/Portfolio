@@ -590,3 +590,9 @@ textarea::placeholder {
 .btn3:hover {
   color: #ffff;
 }
+
+.shape {
+  display: grid;
+  place-items: center;
+  margin-top: 25px;
+}

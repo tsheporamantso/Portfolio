@@ -1,20 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300&display=swap");
+
 /**
 *! Color variables
 **/
+
 /**
 *! Removing default browser style
 **/
 * {
   box-sizing: border-box;
 }
+
 * body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
 }
+
 * a {
   text-decoration: none;
 }
+
 * li {
   list-style: none;
 }
@@ -39,6 +44,7 @@
 .hamburger {
   cursor: pointer;
 }
+
 .hamburger [class^=bar] {
   display: block;
   background-color: #6070ff;
@@ -586,4 +592,10 @@ textarea::placeholder {
 
 .btn3:hover {
   color: white;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.shape {
+  display: grid;
+  place-items: center;
+  margin-top: 25px;
+}
