@@ -16,6 +16,7 @@ $color-10: #e5e5e5;
 $color-11: #f7f7f9;
 $color-12: #253858;
 $color-13: #2230d2;
+$color-14: #cfd8dc;
 
 /**
 *! Removing default browser style
@@ -27,7 +28,7 @@ $color-13: #2230d2;
   body {
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    background-color: $color-10;
+    // background-color: $color-10;
   }
 
   a {
@@ -311,6 +312,7 @@ $color-13: #2230d2;
   background-color: #ffff;
   border-radius: 0 70px 0 0;
   margin-top: 300px;
+  height: max-content;
 }
 
 .about__self {
@@ -480,4 +482,117 @@ $color-13: #2230d2;
 
 .second__icon {
   margin-right: 45px;
+}
+
+/**
+*!Footer Style inputs here
+**/
+
+.contact__form__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./images/contact\ form\ shapes-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: $color-1;
+  border-radius: 70px 0 0 0;
+  margin-top: 100px;
+  height: 820px;
+}
+
+.contact__form__title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffff;
+  margin: 0;
+}
+
+.contact__form__description {
+  font-weight: 400;
+  font-size: 20px;
+  padding: 12px;
+  margin: 0;
+  text-align: center;
+  color: $color-7;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 12px 0 12px;
+}
+
+.name {
+  border: 1px solid $color-14;
+  border-radius: 8px;
+  width: 327px;
+  height: 48px;
+}
+
+.email {
+  border: 1px solid $color-14;
+  border-radius: 8px;
+  width: 327px;
+  height: 48px;
+}
+
+input::placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  padding: 16px;
+}
+
+textarea {
+  border: 1px solid $color-14;
+  border-radius: 8px;
+  width: 327px;
+  height: 170px;
+}
+
+textarea::placeholder {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 16px;
+}
+
+.get__in__touch {
+  background-color: #ffff;
+  padding: 12px;
+  border: 1px solid $color-4;
+  border-radius: 8px;
+  max-width: max-content;
+}
+
+.get__in__touch:hover {
+  background-color: $color-1;
+}
+
+.get__in__touch:active {
+  background-color: $color-13;
+}
+
+.btn3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: $color-9;
+}
+
+.btn3:hover {
+  color: #ffff;
+}
+
+.shape {
+  display: grid;
+  place-items: center;
+  margin-top: 25px;
 }
