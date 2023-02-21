@@ -312,7 +312,7 @@ $color-14: #cfd8dc;
   background-color: #ffff;
   border-radius: 0 70px 0 0;
   margin-top: 300px;
-  height: max-content
+  height: max-content;
 }
 
 .about__self {
@@ -492,16 +492,13 @@ $color-14: #cfd8dc;
   display: flex;
   flex-direction: column;
   align-items: center;
-  // flex-wrap: wrap;
   justify-content: center;
   background-image: url('./images/contact\ form\ shapes-mobile.svg');
   background-repeat: no-repeat;
   background-position: top right;
   background-color: $color-1;
-  // gap: 15px;
-  border-radius: 70px 0 0 0px;
+  border-radius: 70px 0 0 0;
   margin-top: 100px;
-  // border: 2px solid red;
   height: 779px;
 }
 
@@ -509,14 +506,14 @@ $color-14: #cfd8dc;
   font-weight: 700;
   font-size: 40px;
   color: #ffff;
-  margin: 0px;
+  margin: 0;
 }
 
 .footer__description {
   font-weight: 400;
   font-size: 20px;
   padding: 12px;
-  margin: 0px;
+  margin: 0;
   text-align: center;
   color: $color-7;
 }
@@ -526,7 +523,6 @@ $color-14: #cfd8dc;
   flex-direction: column;
   gap: 10px;
   padding: 0 12px 0 12px;
-
 }
 
 .name {
@@ -534,7 +530,6 @@ $color-14: #cfd8dc;
   border-radius: 8px;
   width: 327px;
   height: 48px;
-// padding-right: 12px;
 }
 
 .email {
@@ -560,7 +555,7 @@ textarea {
 }
 
 textarea::placeholder {
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -568,12 +563,7 @@ textarea::placeholder {
 }
 
 .get__in__touch {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  box-sizing: border-box;
   background-color: #ffff;
-  // margin-top: 15px;
   padding: 12px;
   border: 1px solid $color-4;
   border-radius: 8px;
@@ -581,29 +571,11 @@ textarea::placeholder {
 }
 
 .get__in__touch:hover {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  box-sizing: border-box;
   background-color: $color-1;
-  // margin-top: 15px;
-  padding: 12px;
-  border: 1px solid $color-4;
-  border-radius: 8px;
-  max-width: max-content;
 }
 
 .get__in__touch:active {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  box-sizing: border-box;
   background-color: $color-13;
-  // margin-top: 15px;
-  padding: 12px;
-  border: 1px solid $color-4;
-  border-radius: 8px;
-  max-width: max-content;
 }
 
 .btn3 {
@@ -611,13 +583,10 @@ textarea::placeholder {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-   letter-spacing: 0.03em;
+  letter-spacing: 0.03em;
   color: $color-9;
 }
 
 .btn3:hover {
   color: #ffff;
 }
-
-
-

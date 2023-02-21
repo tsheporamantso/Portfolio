@@ -1,20 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300&display=swap");
+
 /**
 *! Color variables
 **/
+
 /**
 *! Removing default browser style
 **/
 * {
   box-sizing: border-box;
 }
+
 * body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
 }
+
 * a {
   text-decoration: none;
 }
+
 * li {
   list-style: none;
 }
@@ -39,6 +44,7 @@
 .hamburger {
   cursor: pointer;
 }
+
 .hamburger [class^=bar] {
   display: block;
   background-color: #6070ff;
@@ -477,7 +483,7 @@
   background-repeat: no-repeat;
   background-position: top right;
   background-color: #6070ff;
-  border-radius: 70px 0 0 0px;
+  border-radius: 70px 0 0 0;
   margin-top: 100px;
   height: 779px;
 }
@@ -486,14 +492,14 @@
   font-weight: 700;
   font-size: 40px;
   color: white;
-  margin: 0px;
+  margin: 0;
 }
 
 .footer__description {
   font-weight: 400;
   font-size: 20px;
   padding: 12px;
-  margin: 0px;
+  margin: 0;
   text-align: center;
   color: #ebebff;
 }
@@ -559,10 +565,6 @@ textarea::placeholder {
 }
 
 .get__in__touch {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  box-sizing: border-box;
   background-color: white;
   padding: 12px;
   border: 1px solid #7f8cff;
@@ -572,29 +574,11 @@ textarea::placeholder {
 }
 
 .get__in__touch:hover {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  box-sizing: border-box;
   background-color: #6070ff;
-  padding: 12px;
-  border: 1px solid #7f8cff;
-  border-radius: 8px;
-  max-width: -moz-max-content;
-  max-width: max-content;
 }
 
 .get__in__touch:active {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  box-sizing: border-box;
   background-color: #2230d2;
-  padding: 12px;
-  border: 1px solid #7f8cff;
-  border-radius: 8px;
-  max-width: -moz-max-content;
-  max-width: max-content;
 }
 
 .btn3 {
@@ -608,4 +592,4 @@ textarea::placeholder {
 
 .btn3:hover {
   color: white;
-}/*# sourceMappingURL=style.css.map */
+}
