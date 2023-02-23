@@ -64,6 +64,7 @@ $bp: (
   li {
     list-style: none;
   }
+
 }
 
 /**
@@ -107,6 +108,8 @@ $bp: (
   display: flex;
   align-items: center;
 }
+
+
 
 /**
 *! Main section styles inputs here
@@ -871,10 +874,28 @@ textarea::placeholder {
     top: 108px;
   }
 
+  .about__myself__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: #ffff;
+    flex-direction: row;
+    // border-radius: 0 70px 0 0;
+    // margin-top: 300px;
+    // height: max-content;
+    // border: 5px solid green;
+    // width: fit-content;
+  }
+
+  // .skills__list {
+  //   display: flex;
+  //   flex-direction: column;
+  // }
+
   .contact__form__section {
     background-image: url('./images/contact\ form\ background\ shapes.svg');
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: 50px 50px;
     width: 1565px;
   }
 

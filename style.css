@@ -807,10 +807,17 @@ textarea::placeholder {
     right: 108px;
     top: 108px;
   }
+  .about__myself__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: white;
+    flex-direction: row;
+  }
   .contact__form__section {
     background-image: url("./images/contact form background shapes.svg");
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: 50px 50px;
     width: 1565px;
   }
   .btn3 {
