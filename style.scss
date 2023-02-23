@@ -338,18 +338,22 @@ $bp: (
 **/
 
 .about__myself__container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+  // display: grid;
+  // grid-template-columns: 1fr;
+  // grid-template-rows: 1fr;
+  display: flex;
+  flex-direction: column;
   background-color: #ffff;
   border-radius: 0 70px 0 0;
   margin-top: 300px;
-  height: max-content;
+  
+ 
 }
 
 .about__self {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   justify-content: space-evenly;
 }
 
@@ -441,7 +445,14 @@ $bp: (
 .skills__list {
   display: flex;
   flex-direction: row;
+  // gap: 15px;
   align-items: center;
+  justify-content: space-between;
+}
+
+.lang {
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -451,7 +462,7 @@ $bp: (
   color: #000;
 }
 
-.language-list {
+.language__list {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -874,25 +885,29 @@ textarea::placeholder {
     top: 108px;
   }
 
-  .about__myself__container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    background-color: #ffff;
-    flex-direction: row;
-    // border-radius: 0 70px 0 0;
-    // margin-top: 300px;
-    // height: max-content;
-    // border: 5px solid green;
-    // width: fit-content;
+  .about__self {
+    width: 50%;
   }
 
-  // .skills__list {
-  //   display: flex;
-  //   flex-direction: column;
-  // }
+  .technologies {
+    width: 50%;
+  }
 
-  .contact__form__section {
+  .about__myself__container {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffff;
+    border-radius: 0 70px 0 0;
+    margin-top: 300px;
+    width: 1565px;
+  }
+
+  .language__list__container {
+    display: flex;
+    // border: 1px solid red;
+  }
+
+   .contact__form__section {
     background-image: url('./images/contact\ form\ background\ shapes.svg');
     background-repeat: no-repeat;
     background-position: 50px 50px;

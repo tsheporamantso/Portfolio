@@ -291,19 +291,17 @@
 *! About Myself Style inputs here
 **/
 .about__myself__container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+  display: flex;
+  flex-direction: column;
   background-color: white;
   border-radius: 0 70px 0 0;
   margin-top: 300px;
-  height: -moz-max-content;
-  height: max-content;
 }
 
 .about__self {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   justify-content: space-evenly;
 }
 
@@ -402,13 +400,19 @@
   justify-content: space-between;
 }
 
+.lang {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .about__myself__language {
   font-weight: 500;
   font-size: 20px;
   color: #000;
 }
 
-.language-list {
+.language__list {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -807,12 +811,22 @@ textarea::placeholder {
     right: 108px;
     top: 108px;
   }
+  .about__self {
+    width: 50%;
+  }
+  .technologies {
+    width: 50%;
+  }
   .about__myself__container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    background-color: white;
+    display: flex;
     flex-direction: row;
+    background-color: white;
+    border-radius: 0 70px 0 0;
+    margin-top: 300px;
+    width: 1565px;
+  }
+  .language__list__container {
+    display: flex;
   }
   .contact__form__section {
     background-image: url("./images/contact form background shapes.svg");
