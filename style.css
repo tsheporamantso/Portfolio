@@ -33,6 +33,10 @@
   list-style: none;
 }
 
+* img:hover {
+  transform: scale(1.04);
+}
+
 /**
 *! Header styles inputs here
 **/
@@ -71,6 +75,12 @@
   color: #6070ff;
   display: flex;
   align-items: center;
+  transition: all 0.5s ease-out;
+}
+
+.logo:hover {
+  color: #6070ff;
+  background-color: #e5e5e5;
 }
 
 /**
@@ -213,6 +223,10 @@
   gap: 15px;
   padding: 0;
   margin: 0;
+}
+
+.tags:hover {
+  transform: scale(1.04);
 }
 
 .language {
@@ -661,6 +675,12 @@ textarea::placeholder {
     color: #344563;
     gap: 20px;
     margin-left: 827px;
+    transition: all 0.5s ease-out;
+  }
+
+  .nav__items:hover {
+    color: #344563;
+    background-color: #e5e5e5;
   }
 
   .headline {
@@ -779,6 +799,10 @@ textarea::placeholder {
     gap: 15px;
     width: 100%;
     padding: 0;
+  }
+
+  .desktop__tags:hover {
+    transform: scale(1.04);
   }
 
   .desktop__tag__language {

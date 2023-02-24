@@ -232,7 +232,7 @@ https://tsheporamantso.github.io/portfolio/
 
 <!-- - [ ] **[Contact form]** -->
 <!-- - [ ] **[Media Query for desktop screen]** -->
-- [ ] **[Transition and Animations]**
+<!-- - [ ] **[Transition and Animations]** -->
 - [ ] **[Web Accessibility]**
 - [ ] **[JavaScript functionality]**
 
