@@ -64,6 +64,7 @@ $bp: (
   li {
     list-style: none;
   }
+
   img:hover {
     transform: scale(1.04);
   }
@@ -690,11 +691,11 @@ textarea::placeholder {
     color: $color-3;
     gap: 20px;
     margin-left: 827px;
-    transition: all 0.5s ease-out
+    transition: all 0.5s ease-out;
   }
 
   .nav__items:hover {
-    color:$color-3;
+    color: $color-3;
     background-color: $color-10;
   }
 
@@ -816,6 +817,10 @@ textarea::placeholder {
     padding: 0;
   }
 
+  .desktop__tags:hover {
+    transform: scale(1.04);
+  }
+
   .desktop__tag__language {
     background-color: $color-7;
     border-radius: 8px;
@@ -908,7 +913,6 @@ textarea::placeholder {
   .language__list__container {
     display: flex;
     flex-direction: row;
-    
   }
 
   .language__list {
