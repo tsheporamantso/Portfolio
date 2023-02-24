@@ -888,10 +888,27 @@ textarea::placeholder {
 
   .language__list__container {
     display: flex;
+    flex-direction: row;
+    // width: 122px;
+    // height: 120px;
   }
+
+  // .code {
+  //   padding-top: 20px;
+  //   position: relative;
+  //   right: 55px;
+  //   top: 33px;
+  //   margin: 0px;
+  //   padding: 0px;
+  // }
 
   .language__list {
     margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 122px;
+    height: 120px;
   }
 
   .about__myself__title {
