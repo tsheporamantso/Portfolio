@@ -260,6 +260,10 @@ $bp: (
   margin: 0;
 }
 
+.tags:hover {
+  transform: scale(1.04);
+}
+
 .language {
   font-weight: 500;
   font-size: 12px;
