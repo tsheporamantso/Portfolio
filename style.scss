@@ -31,7 +31,7 @@ $bp: (
 );
 
 /**
-*! Media Query Renderer 
+*! Media Query Renderer
 **/
 
 @mixin query($screen) {
@@ -64,7 +64,6 @@ $bp: (
   li {
     list-style: none;
   }
-
 }
 
 /**
@@ -83,7 +82,6 @@ $bp: (
   flex-direction: row;
   justify-content: space-between;
   background-color: #ffff;
-  // border: 1px solid green;
 }
 
 .hamburger {
@@ -123,6 +121,7 @@ $bp: (
   background-image: url("./images/header-shapes\ mobile.svg");
   background-repeat: no-repeat;
   background-position: top left;
+  background-position: 100%;
   background-color: #ffff;
   height: 580px;
   border-radius: 0 0 0 70px;
@@ -136,7 +135,6 @@ $bp: (
   line-height: 52px;
   padding: 4px;
   color: $color-2;
-  // border: 1px solid gold;
 }
 
 .header__description {
@@ -338,16 +336,12 @@ $bp: (
 **/
 
 .about__myself__container {
-  // display: grid;
-  // grid-template-columns: 1fr;
-  // grid-template-rows: 1fr;
   display: flex;
   flex-direction: column;
   background-color: #ffff;
   border-radius: 0 70px 0 0;
   margin-top: 300px;
-  
- 
+  height: 924px;
 }
 
 .about__self {
@@ -445,7 +439,6 @@ $bp: (
 .skills__list {
   display: flex;
   flex-direction: row;
-  // gap: 15px;
   align-items: center;
   justify-content: space-between;
 }
@@ -660,6 +653,7 @@ textarea::placeholder {
   body {
     box-sizing: border-box;
   }
+
   .hamburger,
   .shape,
   .works {
@@ -672,7 +666,6 @@ textarea::placeholder {
 
   .navbar {
     width: 1565px;
-    // border: 1px solid pink;
   }
 
   .nav__items {
@@ -685,13 +678,11 @@ textarea::placeholder {
     color: $color-3;
     gap: 20px;
     margin-left: 827px;
-    // border: 1px solid red;
   }
 
   .headline {
     background-image: url("./images/Header\ bg.svg");
     background-position: top center;
-    // background-size: 100%;
     height: 825px;
     width: 1565px;
     border-radius: 0 0 0 70px;
@@ -703,7 +694,7 @@ textarea::placeholder {
     width: 920px;
     height: 122px;
     letter-spacing: 0.037px;
-    margin: 0px;
+    margin: 0;
   }
 
   .header__description {
@@ -712,7 +703,7 @@ textarea::placeholder {
     width: 920px;
     height: 98px;
     padding-top: 12px;
-    margin: 0px;
+    margin: 0;
   }
 
   .header__connect {
@@ -734,7 +725,6 @@ textarea::placeholder {
     display: flex;
     flex-direction: row;
     align-items: center;
-    // place-items: center;
     justify-content: flex-end;
     background-color: #ffff;
     border: 1px solid $color-8;
@@ -742,7 +732,7 @@ textarea::placeholder {
     width: 1156px;
     height: 496px;
     padding-left: 12px;
-    margin: 0px;
+    margin: 0;
     gap: 20px;
   }
 
@@ -768,8 +758,7 @@ textarea::placeholder {
     align-items: center;
     gap: 15px;
     width: 100%;
-    padding: 0px;
-    // margin: 0px;
+    padding: 0;
   }
 
   .desktop__project__name {
@@ -807,8 +796,6 @@ textarea::placeholder {
     gap: 15px;
     width: 100%;
     padding: 0;
-    // margin: 0;
-    // border: 1px solid green;
   }
 
   .desktop__tag__language {
@@ -864,8 +851,6 @@ textarea::placeholder {
   .img2 {
     position: relative;
     left: 585px;
-    // padding: 0px;
-    // margin: 0px;
   }
 
   .desktop__clients__info2 {
@@ -876,7 +861,7 @@ textarea::placeholder {
     position: relative;
     margin-bottom: 80px;
     padding-left: 12px;
-    right: 565px;    
+    right: 565px;
   }
 
   .hand__cursor {
@@ -900,21 +885,47 @@ textarea::placeholder {
     border-radius: 0 70px 0 0;
     margin-top: 300px;
     width: 1565px;
+    padding-top: 50px;
   }
 
   .language__list__container {
     display: flex;
-    // border: 1px solid red;
   }
 
-   .contact__form__section {
+  .about__myself__title {
+    position: relative;
+    bottom: 10%;
+  }
+
+  .about__myself__description {
+    position: relative;
+    bottom: 20%;
+  }
+
+  .about__myself__connect {
+    position: relative;
+    bottom: 30%;
+  }
+
+  .about__myself__socials {
+    position: relative;
+    bottom: 40%;
+  }
+
+  .btn2 {
+    position: relative;
+    bottom: 50%;
+  }
+
+  .contact__form__section {
     background-image: url('./images/contact\ form\ background\ shapes.svg');
     background-repeat: no-repeat;
     background-position: 50px 50px;
     width: 1565px;
+    margin-top: -300px;
   }
 
-  .btn3{
+  .btn3 {
     display: flex;
     justify-content: center;
     align-items: center;
