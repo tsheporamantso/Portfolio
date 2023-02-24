@@ -338,7 +338,7 @@ $bp: (
   flex-direction: column;
   background-color: #ffff;
   border-radius: 0 70px 0 0;
-  margin-top: 300px;
+  margin-top: 130px;
   height: 924px;
 }
 
@@ -544,6 +544,7 @@ $bp: (
 }
 
 .contact__form__description {
+  width: 569px;
   font-weight: 400;
   font-size: 20px;
   padding: 12px;
@@ -869,11 +870,11 @@ textarea::placeholder {
   }
 
   .about__self {
-    width: 50%;
+    width: 40%;
   }
 
   .technologies {
-    width: 50%;
+    width: 60%;
   }
 
   .about__myself__container {
@@ -881,33 +882,40 @@ textarea::placeholder {
     flex-direction: row;
     background-color: #ffff;
     border-radius: 0 70px 0 0;
-    margin-top: 300px;
     width: 1565px;
-    padding-top: 50px;
+    padding: 50px 60px 0 60px;
   }
 
   .language__list__container {
     display: flex;
   }
 
+  .language__list {
+    margin: 10px;
+  }
+
   .about__myself__title {
     position: relative;
     bottom: 10%;
+    padding: 12px;
   }
 
   .about__myself__description {
     position: relative;
     bottom: 20%;
+    padding: 12px;
   }
 
   .about__myself__connect {
     position: relative;
     bottom: 30%;
+    padding: 12px;
   }
 
   .about__myself__socials {
     position: relative;
     bottom: 40%;
+    padding: 12px;
   }
 
   .btn2 {
