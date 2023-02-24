@@ -230,9 +230,10 @@ https://tsheporamantso.github.io/portfolio/
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Contact form]**
-- [ ] **[Media Query for desktop screen]**
-- [ ] **[Web Accessebility and Animations]**
+<!-- - [ ] **[Contact form]** -->
+<!-- - [ ] **[Media Query for desktop screen]** -->
+- [ ] **[Transition and Animations]**
+- [ ] **[Web Accessibility]**
 - [ ] **[JavaScript functionality]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
