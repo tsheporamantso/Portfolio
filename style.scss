@@ -64,6 +64,9 @@ $bp: (
   li {
     list-style: none;
   }
+  img:hover {
+    transform: scale(1.04);
+  }
 }
 
 /**
