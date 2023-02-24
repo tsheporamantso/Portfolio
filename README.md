@@ -232,7 +232,8 @@ https://tsheporamantso.github.io/portfolio/
 
 <!-- - [ ] **[Contact form]** -->
 <!-- - [ ] **[Media Query for desktop screen]** -->
-- [ ] **[Web Accessebility and Animations]**
+- [ ] **[Transition and Animations]**
+- [ ] **[Web Accessibility]**
 - [ ] **[JavaScript functionality]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
