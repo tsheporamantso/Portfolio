@@ -661,11 +661,9 @@ textarea::placeholder {
     color: #344563;
     gap: 20px;
     margin-left: 827px;
-    transition: all 0.5s ease-out;
   }
   .nav__items:hover {
-    color: #344563;
-    background-color: #e5e5e5;
+    transform: scale(1.04);
   }
   .headline {
     background-image: url("./images/Header bg.svg");
