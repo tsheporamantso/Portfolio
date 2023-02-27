@@ -690,12 +690,10 @@ textarea::placeholder {
     color: $color-3;
     gap: 20px;
     margin-left: 827px;
-    transition: all 0.5s ease-out;
   }
 
   .nav__items:hover {
-    color: $color-3;
-    background-color: $color-10;
+    transform: scale(1.04);
   }
 
   .headline {
@@ -961,7 +959,7 @@ textarea::placeholder {
   }
 
   .contact__form__description {
-    width: 569px;
+    max-width: 569px;
   }
 
   .btn3 {
