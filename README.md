@@ -107,11 +107,11 @@ This project is about my personal portfolio based on figma design provided by Mi
 
 <!-- LIVE DEMO -->
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://tsheporamantso.github.io/hello-microverse/)
+- [https://tsheporamantso.github.io/Portfolio/](https://tsheporamantso.github.io/Portfolio/)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 

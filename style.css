@@ -526,7 +526,6 @@
 }
 
 .contact__form__description {
-  width: 569px;
   font-weight: 400;
   font-size: 20px;
   padding: 12px;
@@ -944,6 +943,10 @@ textarea::placeholder {
     background-position: 50px 50px;
     width: 1565px;
     margin-top: -300px;
+  }
+
+  .contact__form__description {
+    width: 569px;
   }
 
   .btn3 {
