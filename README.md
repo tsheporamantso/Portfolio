@@ -29,11 +29,15 @@ After you're finished please remove all the comments and instructions!
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <!-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
+  <h1>Gladwin Tshepo Ramantso<h1>
   <br/>
-
+  
   <h3><b>Personal Portfolio</b></h3>
 
 </div>
+
+<img scr="./images/mobile-v.PNG">
+<img scr="./images/desktop-c.PNG">
 
 <!-- TABLE OF CONTENTS -->
 
@@ -56,16 +60,16 @@ After you're finished please remove all the comments and instructions!
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+<!-- - [❓ FAQ (OPTIONAL)](#faq) -->
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Personal Portfolio] <a name="about-project"></a>
+# 📖 Personal Portfolio <a name="about-project"></a>
 
 This project is about my personal portfolio based on figma design provided by Microverse.    
 
-**[Personal Portfolio]** is a mobile version personal portfolio with a synopsis about myself and projects worked on.
+**Personal Portfolio** is a mobile version personal portfolio with a synopsis about myself and projects worked on.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -99,9 +103,9 @@ This project is about my personal portfolio based on figma design provided by Mi
 
 ### Key Features <a name="key-features"></a>
 
-- **[Linters Setup]**
-- **[Display text and background image]**
-- **[Display links to my social media accounts]**
+- **Linters Setup**
+- **Display text and background image**
+- **Display links to my social media accounts**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -230,11 +234,11 @@ https://tsheporamantso.github.io/portfolio/
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-<!-- - [ ] **[Contact form]** -->
-<!-- - [ ] **[Media Query for desktop screen]** -->
-<!-- - [ ] **[Transition and Animations]** -->
-<!-- - [ ] **[Web Accessibility]** -->
-- [ ] **[JavaScript functionality]**
+<!-- - [ ] **Contact form** -->
+<!-- - [ ] **Media Query for desktop screen** -->
+<!-- - [ ] **Transition and Animations** -->
+<!-- - [ ] **Web Accessibility** -->
+- [ ] **JavaScript functionality**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -268,7 +272,7 @@ I would like to thank Microverse for this exercise.
 
 <!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+<!-- ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
 
 - **[Question_1]**
@@ -279,7 +283,7 @@ I would like to thank Microverse for this exercise.
 
   - [Answer_2]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- LICENSE -->
 
