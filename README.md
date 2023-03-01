@@ -32,12 +32,12 @@ After you're finished please remove all the comments and instructions!
   <h1>Gladwin Tshepo Ramantso<h1>
   <br/>
   
+  <img scr="./images/mobile-v.PNG">
+  <img scr="./images/desktop-c.PNG">
+
   <h3><b>Personal Portfolio</b></h3>
 
 </div>
-
-<img scr="./images/mobile-v.PNG">
-<img scr="./images/desktop-c.PNG">
 
 <!-- TABLE OF CONTENTS -->
 
