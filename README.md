@@ -245,7 +245,7 @@ https://tsheporamantso.github.io/portfolio/
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [https://github.com/tsheporamantso/portfolio/issues](../../issues/).
+Feel free to check the [issues page](https://github.com/tsheporamantso/portfolio/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
