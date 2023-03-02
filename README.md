@@ -110,7 +110,7 @@ This project is about my personal portfolio based on figma design provided by Mi
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [https://tsheporamantso.github.io/Portfolio/](https://tsheporamantso.github.io/Portfolio/)
+- [Live Demo](https://tsheporamantso.github.io/Portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
