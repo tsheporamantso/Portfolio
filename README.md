@@ -191,6 +191,9 @@ Example command:
 ```sh
   npx stylelint "**/*.{css,scss}"
 ```
+```sh
+  npx eslint .
+```
 
 
 ### Deployment
