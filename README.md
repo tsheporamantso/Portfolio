@@ -228,6 +228,12 @@ https://tsheporamantso.github.io/portfolio/
 - Twitter: [@mercymugambi15](https://twitter.com/MercyMugambi15)
 - LinkedIn: [@mercymugambi](https://www.linkedin.com/in/mercymugambi/)
 
+👤 **Lawrence Amoafo**
+
+- GitHub: [@Kwaku28](https://github.com/Kwaku28)
+- Twitter: [@kwakuamoafo](https://twitter.com/kwakuamoafo)
+- LinkedIn: [@lawrenceamoafo](https://www.linkedin.com/in/lawrenceamoafo)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
