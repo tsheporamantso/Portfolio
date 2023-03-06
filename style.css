@@ -42,20 +42,76 @@
   width: 100%;
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   background-color: white;
 }
 
-.hamburger {
-  cursor: pointer;
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+  background-color: white;
 }
-.hamburger [class^=bar] {
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  background-color: white;
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: white;
+}
+
+.hamburger {
+  z-index: 2;
+}
+
+.nav__menu__desktop {
+  display: none;
+}
+
+.nav__menu__mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: fixed;
+  left: 100%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+  background-color: rgba(41, 58, 208, 0.8);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  z-index: 1;
+}
+
+.nav__menu__mobile.active {
+  left: 0;
+}
+
+.nav__links__mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  position: relative;
+  height: 100vh;
+  top: 15%;
+}
+
+.dt__link {
+  color: white;
+  font-size: 30px;
+}
+
+.bar {
   display: block;
   background-color: #6070ff;
   width: 30px;
   height: 3px;
   margin: 5px;
-  margin-right: 32px;
+  transition: all 0.3s ease-in-out;
 }
 
 .logo {
@@ -63,9 +119,9 @@
   font-size: 18px;
   line-height: 20px;
   margin-left: 16px;
+  padding: 15px;
   color: #6070ff;
-  display: flex;
-  align-items: center;
+  position: relative;
   transition: all 0.5s ease-out;
 }
 
@@ -84,7 +140,6 @@
   align-items: center;
   background-image: url("./images/header-shapes mobile.svg");
   background-repeat: no-repeat;
-  background-position: top left;
   background-position: 100%;
   background-color: white;
   height: 580px;
@@ -621,14 +676,7 @@ textarea::placeholder {
   margin-top: 25px;
 }
 
-.nav__items {
-  display: none;
-}
-
-.desktop__works {
-  display: none;
-}
-
+.desktop__works,
 .desktop__works2 {
   display: none;
 }
@@ -637,10 +685,12 @@ textarea::placeholder {
 *! Media Queries styles inputs here
 **/
 @media screen and (min-width: 768px) {
-  body {
+  html {
     box-sizing: border-box;
+    font-size: 100%;
   }
   .hamburger,
+  .nav__menu__mobile,
   .shape,
   .works {
     display: none;
@@ -650,20 +700,32 @@ textarea::placeholder {
   }
   .navbar {
     width: 1565px;
-  }
-  .nav__items {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    background-color: white;
+  }
+  .nav__menu__desktop {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left: 795px;
     font-weight: 500;
     font-size: 15px;
     width: 1565px;
     color: #344563;
     gap: 20px;
-    margin-left: 827px;
   }
-  .nav__items:hover {
-    transform: scale(1.04);
+  .nav__links {
+    font-weight: 500;
+    font-size: 15px;
+    color: #344563;
+    transition: 0.7s;
+  }
+  .nav__links:hover {
+    background-color: #e5e5e5;
   }
   .headline {
     background-image: url("./images/Header bg.svg");
