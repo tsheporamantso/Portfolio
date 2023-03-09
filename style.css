@@ -1199,4 +1199,33 @@ textarea::placeholder {
     justify-content: center;
     align-items: center;
   }
+
+  .d__modal {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid #ebecf0;
+    border-radius: 8px;
+    width: 100%;
+    padding: 12px;
+    height: -moz-max-content;
+    height: max-content;
+  }
+
+  .dt__modal {
+    height: 580px;
+    width: 1156px;
+    border-radius: 0;
+    position: fixed;
+    left: 1rem;
+    right: 1rem;
+    top: 6rem;
+    bottom: 5rem;
+    background: var(--white);
+    border: 1px solid var(--white6);
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: auto;
+  }
 }

@@ -88,8 +88,6 @@ const projects = [
 
 ];
 
-// console.log(projects[1]);
-
 const allElement = document.querySelector('#all-elements');
 const ShowBtn = document.querySelectorAll('.see__project1');
 const modal = document.querySelector('.modal');
@@ -106,11 +104,11 @@ ShowBtn.forEach((seeBtn, index) => {
   <ul class="modal__client" id="modal__client">
     <li class="modal__client__name" id="modal__client__name">${projects[index].client[0]}</li>
     <li class="modal__counter">
-      <img scr="./images/Counter.svg">
+      <img tabindex="0" src="./images/Counter.svg" alt="period" />
     </li>
     <li class="modal__role" id="modal__role">${projects[index].client[1]}</li>
     <li class="modal__counter">
-      <img scr="./images/Counter.svg">
+      <img tabindex="0" src="./images/Counter.svg" alt="period" />
     </li>
     <li class="modal__client__year">${projects[index].client[2]}</li>
   </ul>
@@ -152,5 +150,92 @@ modal.addEventListener('click', (e) => {
   if (e.target.id === 'close-btn') {
     modal.style.display = 'none';
     allElement.classList.remove('mobile-popup');
+  }
+});
+
+const AllElement = document.querySelector('#all-elements');
+const showBtn = document.querySelectorAll('.see__project');
+const Modal = document.querySelector('.modal');
+showBtn.forEach((seeBtn, index) => {
+  seeBtn.addEventListener('click', () => {
+    Modal.style.display = 'block';
+    AllElement.classList.add('mobile-popup');
+    Modal.innerHTML = `
+    <div class="d__modal">
+        <div class="d__modal__header">
+            <div class="d__modal__title">
+                <h class="tittle">Tonic</h>
+                <button data-close-button class="close-btn" id="close-btn">&times;</button>
+            </div>
+            <ul class="d__modal__client">
+                <li class="d__modal__client__name">CANOPY</li>
+                <li class="d__modal__counter">
+                    <img tabindex="0" src="./images/Counter.svg" alt="period" />
+                </li>
+                <li class="d__modal__client__role">Back End Dev</li>
+                <li class="d__modal__counter">
+                    <img tabindex="0" src="./images/Counter.svg" alt="period" />
+                </li>
+                <li class="d__modal__year">2015</li>  
+            </ul>
+        </div>
+
+        <div class="d__modal__image">
+            <img src="./image/Snapshoot Portfolio1.png" alt="">
+        </div>
+
+        <div class="d__modal__main">
+            <div class="d__modal__text">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+            </div>
+            <div class="technologies">
+                <ul class="first__tech">
+                    <li>
+                        <a href="#">html</a>
+                    </li>
+                    <li>
+                        <a href="#">css</a>
+                    </li>
+                    <li>
+                        <a href="#">javascript</a>
+                    </li>
+                </ul>
+                <ul class="sec__tech">
+                    <li>
+                        <a href="#">github</a>
+                    </li>
+                    <li>
+                        <a href="#">ruby</a>
+                    </li>
+                    <li>
+                        <a href="#">Bootstraps</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="btn-container">
+            <button class="see-live-container-btn">
+              <a id="see__live" href="${projects[index].live}" class="see-live-btn"
+                >See live &nbsp
+                <img src="./images/Icon.svg" alt="see-live-icon" />
+              </a>
+            </button>
+            <button class="see-source-container-btn">
+              <a id="see__source" href="${projects[index].source}" class="see-source-btn"
+                >See Source &nbsp
+                <img src="./images/github.svg" alt="see-source-icon" />
+              </a>
+            </button>
+    </div>
+    `;
+  });
+});
+
+document.body.appendChild(Modal);
+
+Modal.addEventListener('click', (e) => {
+  if (e.target.id === 'close-btn') {
+    modal.style.display = 'none';
+    AllElement.classList.remove('mobile-popup');
   }
 });
