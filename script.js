@@ -120,3 +120,68 @@ btn.addEventListener('click', () => {
 //         allElements.classList.remove('mobile-popup');
 //     }
 // });
+
+// const popupWindow = document.querySelector('.modal');
+// const openModalButtons = document.querySelectorAll('[data-modal-target]');
+// const closeModalButtons = document.querySelectorAll('[data-close-button]');
+// const modalTitle = document.querySelector('#modal__title');
+// const modalText = document.querySelector('#modal__text');
+// const modalImage = document.querySelector('#modal__image');
+// const modalClient = document.querySelector('#modal__client');
+// const modalTech = document.querySelector('#modal__tech');
+// const live = document.querySelector('#see__live');
+// const source = document.querySelector('#see__source');
+// const overlay = document.getElementById('overlay');
+
+// function openModal(popupWindow) {
+//   // eslint-disable-next-line no-undef
+//   if (modal === null) return;
+//   popupWindow.classList.add('active');
+//   overlay.classList.add('active');
+// }
+
+// function closeModel(popupWindow) {
+//   // eslint-disable-next-line no-undef
+//   if (modal === null) return;
+//   popupWindow.classList.remove('active');
+//   overlay.classList.remove('active');
+// }
+
+// openModalButtons.forEach((button) => {
+//   button.addEventListener('click', () => {
+//     // eslint-disable-next-line no-unused-vars
+//     const model = document.querySelector(button.dataset.modelTarget);
+//     openModal(popupWindow);
+
+//     projects.forEach((popup) => {
+//       if (popup.id === button.id) {
+//         modalImage.src = popup.featureImageMob;
+//         modalTitle.textContent = popup.projectTitle;
+//         modalClient.textContent = '';
+//         popup.tagsDes.forEach((tags) => {
+//           const taglist = document.createElement('li');
+//           taglist.innerText = tags;
+//           modalTech.appendChild(taglist);
+//         });
+//         modalText.innerText = popup.projectDescriptionDes;
+//         live.href = popup.see__live;
+//         source.href = popup.see__source;
+//       }
+//     });
+//   });
+// });
+
+// overlay.addEventListener('click', () => {
+//   const model = document.querySelectorAll('.modal.active');
+//   model.forEach((popupWindow) => {
+//     closeModel(popupWindow);
+//   });
+// });
+
+// closeModalButtons.forEach((button) => {
+//   button.addEventListener('click', () => {
+//     // eslint-disable-next-line no-unused-vars
+//     const model = button.closest('.modal');
+//     closeModel(popupWindow);
+//   });
+// });
