@@ -1,146 +1,156 @@
 /**
  *!                                         Project Object, keys and values
  * */
-// const projects = [
+const projects = [
+  {
+    id: 0,
+    mobTitle: 'Tonic',
+    client: ['Canopy', 'Back End Dev', '2015'],
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    descriptionMod: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    technologies: ['html', 'css', 'JavaScript'],
+    featureImage: './images/card-1.svg',
+    live: 'https://tsheporamantso.github.io/Portfolio/',
+    source: 'https://tsheporamantso.github.io/Portfolio/',
+  },
 
-//   {
-//     id: 0,
-//     projectTitle: 'Tonic',
-//     client: ['Canopy', 'Back End Dev', '2015'],
-//     projectDescription: ' A daily selection of privately personalized reads; no accounts or sign-ups required.',
-//     technologies: ['html', 'css', 'JavaScript'],
-//     featureImage: './images/card-1.svg',
-//     live: ' https://tsheporamantso.github.io/Portfolio/',
-//     source: ' https://tsheporamantso.github.io/Portfolio/',
-//   },
+  {
+    id: 1,
+    mobTitle: 'Multi-Post Stories',
+    client: ['Canopy', 'Back End Dev', '2015'],
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    descriptionMod: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    technologies: ['html', 'css', 'JavaScript'],
+    featureImage: './images/card-2.svg',
+    live: 'https://tsheporamantso.github.io/Portfolio/',
+    source: 'https://tsheporamantso.github.io/Portfolio/',
+  },
 
-//   {
-//     id: 1,
-//     projectTitle: 'Tonic',
-//     client: ['Canopy', 'Back End Dev', '2015'],
-//     projectDescription: ' A daily selection of privately personalized reads; no accounts or sign-ups required.',
-//     technologies: ['html', 'css', 'JavaScript'],
-//     featureImage: './images/Snapshoot Portfolio1.png.',
-//     live: ' https://tsheporamantso.github.io/Portfolio/',
-//     source: ' https://tsheporamantso.github.io/Portfolio/',
-//   },
+  {
+    id: 2,
+    mobTitle: 'Tonic',
+    client: ['Canopy', 'Back End Dev', '2015'],
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    descriptionMod: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    technologies: ['html', 'css', 'JavaScript'],
+    featureImage: './images/card-3.svg',
+    live: 'https://tsheporamantso.github.io/Portfolio/',
+    source: 'https://tsheporamantso.github.io/Portfolio/',
+  },
 
-//   {
-//     id: 2,
-//     projectTitle: 'Multi-Post Stories',
-//     clientMob: ['Canopy', 'Back End Dev', '2015'],
-//     projectDescriptionMob: ' A daily selection of privately personalized reads; no accounts or sign-ups required.',
-//     technologies: ['html', 'css', 'JavaScript'],
-//     featureImageMob: './images/card-2.svg',
-//     live: ' https://tsheporamantso.github.io/Portfolio/',
-//     source: ' https://tsheporamantso.github.io/Portfolio/',
-//   },
+  {
+    id: 3,
+    DesTitle: 'Tonic',
+    client: ['Canopy', 'Back End Dev', '2015'],
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    descriptionMod: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    technologies: ['html', 'css', 'JavaScript'],
+    featureImage: './images/Snapshoot Portfolio1.png',
+    live: 'https://tsheporamantso.github.io/Portfolio/',
+    source: 'https://tsheporamantso.github.io/Portfolio/',
+  },
 
-//   {
-//     id: 3,
-//     projectTitle: 'Multi-Post Stories',
-//     clientMob: ['Canopy', 'Back End Dev', '2015'],
-//     projectDescriptionDes: ' Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-//     technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
-//     featureImageDes: './images/Snapshoot Portfolio2.svg.',
-//     live: ' https://tsheporamantso.github.io/Portfolio/',
-//     source: ' https://tsheporamantso.github.io/Portfolio/',
-//   },
+  {
+    id: 4,
+    DesTitle: 'Multi-Post Stories',
+    client: ['FACEBOOK', 'Back End Dev', '2015'],
+    description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    descriptionMod: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    technologies: ['html', 'Ruby on rails', 'css', 'JavaScript'],
+    featureImage: './images/Snapshoot Portfolio2.svg',
+    live: 'https://tsheporamantso.github.io/Portfolio/',
+    source: 'https://tsheporamantso.github.io/Portfolio/',
+  },
 
-//   {
-//     id: 4,
-//     projectTitleMob: 'Tonic',
-//     clientMob: ['Canopy', 'Back End Dev', '2015'],
-//     projectDescriptionMob: ' A daily selection of privately personalized reads; no accounts or sign-ups required.',
-//     technologies: ['html', 'css', 'JavaScript'],
-//     featureImageMob: './images/card-3.svg',
-//     live: ' https://tsheporamantso.github.io/Portfolio/',
-//     source: ' https://tsheporamantso.github.io/Portfolio/',
-//   },
+  {
+    id: 5,
+    DesTitle: 'Facebook 360',
+    client: ['FACEBOOK', 'Back End Dev', '2015'],
+    description: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+    descriptionMod: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    technologies: ['html', 'Ruby on rails', 'css', 'JavaScript'],
+    featureImage: './images/Snapshoot Portfolio3.svg',
+    live: 'https://tsheporamantso.github.io/Portfolio/',
+    source: 'https://tsheporamantso.github.io/Portfolio/',
+  },
 
-//   {
-//     id: 5,
-//     projectTitleDes: 'Facebook 360',
-//     clientDes: ['FACEBOOK', 'Back End Dev', '2015'],
-//     projectDescriptionDes: ' Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-//     technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
-//     featureImageDes: './images/Snapshoot Portfolio3.svg.',
-//     live: ' https://tsheporamantso.github.io/Portfolio/',
-//     source: ' https://tsheporamantso.github.io/Portfolio/',
-//   },
+  {
+    id: 6,
+    DesTitle: 'Uber Navigation',
+    client: ['Uber', 'Lead Developer', '2015'],
+    description: ' A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    descriptionMod: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    technologies: ['html', 'Ruby on rails', 'css', 'JavaScript'],
+    featureImage: './images/Snapshoot Portfolio4.svg',
+    live: 'https://tsheporamantso.github.io/Portfolio/',
+    source: 'https://tsheporamantso.github.io/Portfolio/',
+  },
 
-//   {
-//     id: 6,
-//     projectTitleDes: 'Uber Navigation',
-//     clientDes: ['Uber', 'Lead Developer', '2015'],
-//     projectDescriptionDes: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-//     technolies: ['html', 'Ruby on rails', 'css', 'javaScript'],
-//     featureImageDes: './images/Snapshoot Portfolio4.svg.',
-//     live: ' https://tsheporamantso.github.io/Portfolio/',
-//     source: ' https://tsheporamantso.github.io/Portfolio/',
-//   },
-// ];
+];
 
 // console.log(projects[1]);
 
-const body = document.querySelector('body');
-const btn = document.querySelector('.see__project1');
-btn.addEventListener('click', () => {
-  const section = document.createElement('div');
-  const popup = document.createElement('div');
-  section.className = 'mobile-popup';
-  popup.className = 'modal';
-  popup.innerHTML = `
-  <div class="modal" id="modal">
-  <div class="modal__header">
-    <h class="modal__title" id="modal__title">Tonic</h>
-    <button data-close-button class="close-btn">&times;</button>
+const allElement = document.querySelector('#all-elements');
+const ShowBtn = document.querySelectorAll('.see__project1');
+const modal = document.querySelector('.modal');
+ShowBtn.forEach((seeBtn, index) => {
+  seeBtn.addEventListener('click', () => {
+    modal.style.display = 'block';
+    allElement.classList.add('mobile-popup');
+    modal.innerHTML = `
+    <div id="modal">
+    <div class="modal__header">
+    <h class="modal__title" id="modal__title">${projects[index].mobTitle}</h>
+    <button data-close-button class="close-btn" id="close-btn">&times;</button>
   </div>
   <ul class="modal__client" id="modal__client">
-    <li class="modal__client__name" id="modal__client__name">Canopy</li>
+    <li class="modal__client__name" id="modal__client__name">${projects[index].client[0]}</li>
     <li class="modal__counter">
-      <img src="./images/Counter.svg" alt="">
+      <img scr="./images/Counter.svg">
     </li>
-    <li class="modal__role" id="modal__role">Back End Dev</li>
+    <li class="modal__role" id="modal__role">${projects[index].client[1]}</li>
     <li class="modal__counter">
-      <img src="./images/Counter.svg" alt="">
+      <img scr="./images/Counter.svg">
     </li>
-    <li class="modal__client__year">2015</li>
+    <li class="modal__client__year">${projects[index].client[2]}</li>
   </ul>
-  <img class="modal__image" id="modal__image" src="./images/card-1.svg" alt="">
-  <p class="modal__text" id="modal__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent</p>
+  <img class="modal__image" src="${projects[index].featureImage}">
+  <p class="modal__text" id="modal__text">${projects[index].descriptionMod}</p>
   <ul class="modal__tech">
     <li class="modal__html">
-      <a class="modal__technologies" id="modal__technologies" href="#">html</a>
+      <a class="modal__technologies" id="modal__technologies" href="#">${projects[index].technologies[0]}</a>
     </li>
     <li class="modal__css">
-      <a class="modal__technologies" id="modal__technologies" href="#">css</a>
+      <a class="modal__technologies" id="modal__technologies" href="#">${projects[index].technologies[1]}</a>
     </li>
     <li class="modal__javascript">
-      <a class="modal__technologies" id="modal__technologies" href="#">JavaScript</a>
+      <a class="modal__technologies" id="modal__technologies" href="#">${projects[index].technologies[2]}</a>
     </li>
   </ul>
   <hr class="modal__line">
   <div class="btn-container">
     <button class="see-live-container-btn">
-      <a id="see__live" href="#" class="see-live-btn"
+      <a id="see__live" href="${projects[index].live}" class="see-live-btn"
         >See live &nbsp
         <img src="./images/Icon.svg" alt="see-live-icon" />
       </a>
     </button>
     <button class="see-source-container-btn">
-      <a id="see__source" href="#" class="see-source-btn"
+      <a id="see__source" href="${projects[index].source}" class="see-source-btn"
         >See Source &nbsp
         <img src="./images/github.svg" alt="see-source-icon" />
       </a>
     </button>
-</div>
-            `;
-  section.appendChild(popup);
-  body.appendChild(section);
-  const close = document.querySelector('.close-btn');
-
-  close.addEventListener('click', () => {
-    body.removeChild(section);
+    </div>
+    `;
   });
+});
+
+document.body.appendChild(modal);
+
+modal.addEventListener('click', (e) => {
+  if (e.target.id === 'close-btn') {
+    modal.style.display = 'none';
+    allElement.classList.remove('mobile-popup');
+  }
 });
