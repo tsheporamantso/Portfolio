@@ -27,7 +27,7 @@ const projects = [
     technologies: ['html', 'css', 'JavaScript'],
     desTechnologies: ['html', 'css', 'JavaScript', 'github', 'ruby', 'Bootstraps'],
     featureImageMob: './images/card-2.svg',
-    featureImageDes: './images/Snapshoot Portfolio1.png',
+    featureImageDes: './images/Snapshoot Portfolio2.svg',
     live: 'https://tsheporamantso.github.io/Portfolio/',
     source: 'https://tsheporamantso.github.io/Portfolio/',
   },
@@ -42,7 +42,7 @@ const projects = [
     technologies: ['html', 'css', 'JavaScript'],
     desTechnologies: ['html', 'css', 'JavaScript', 'github', 'ruby', 'Bootstraps'],
     featureImageMob: './images/card-3.svg',
-    featureImageDes: './images/Snapshoot Portfolio1.png',
+    featureImageDes: './images/Snapshoot Portfolio3.svg',
     live: 'https://tsheporamantso.github.io/Portfolio/',
     source: 'https://tsheporamantso.github.io/Portfolio/',
   },
@@ -57,7 +57,7 @@ const projects = [
     technologies: ['html', 'css', 'JavaScript'],
     desTechnologies: ['html', 'css', 'JavaScript', 'github', 'ruby', 'Bootstraps'],
     featureImageMob: './images/card-1.svg',
-    featureImageDes: './images/Snapshoot Portfolio1.png',
+    featureImageDes: './images/Snapshoot Portfolio4.svg',
     live: 'https://tsheporamantso.github.io/Portfolio/',
     source: 'https://tsheporamantso.github.io/Portfolio/',
   },
@@ -109,10 +109,344 @@ const projects = [
 ];
 
 const allElement = document.querySelector('#all-elements');
-const ShowBtn = document.querySelectorAll('.see__project1');
 const modal = document.querySelector('.modal');
-ShowBtn.forEach((seeBtn, index) => {
-  seeBtn.addEventListener('click', () => {
+
+document.body.appendChild(modal);
+
+modal.addEventListener('click', (e) => {
+  if (e.target.id === 'close-btn') {
+    modal.style.display = 'none';
+    allElement.classList.remove('mobile-popup');
+  }
+});
+
+const AllElement = document.querySelector('#all-elements');
+const dtModal = document.querySelector('.dt__modal');
+
+document.body.appendChild(dtModal);
+
+dtModal.addEventListener('click', (e) => {
+  if (e.target.id === 'dt__close-btn') {
+    modal.style.display = 'none';
+    AllElement.classList.remove('mobile-popup');
+  }
+});
+
+const cards = document.querySelector('.allProjects');
+function createCards() {
+  const code = `
+  <section class="desktop__cards__container">
+        <div class="desktop__works" id="portfolio2">
+          <div class="desktop__cards">
+            <img
+              tabindex="0"
+              src="./images/Snapshoot Portfolio1.png"
+              alt="Project image"
+            />
+            <div class="desktop__clients__info">
+              <h tabindex="0" class="desktop__project__title">Tonic</h>
+              <ul class="desktop__client">
+                <li tabindex="0" class="desktop__project__name">Canopy</li>
+                <li class="desktop__counter">
+                  <img tabindex="0" src="./images/Counter.svg" alt="period" />
+                </li>
+                <li tabindex="0" class="desktop__project__role">
+                  Back End Dev
+                </li>
+                <li class="desktop__counter">
+                  <img tabindex="0" src="./images/Counter.svg" alt="period" />
+                </li>
+                <li tabindex="0" class="desktop__year">2015</li>
+              </ul>
+              <p tabindex="0" class="desktop__project__description">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required.
+              </p>
+              <ul class="desktop__tags">
+                <li class="desktop__tag__language">
+                  <a href="#" class="desktop__language">html</a>
+                </li>
+                <li class="desktop__tag__language">
+                  <a href="#" class="desktop__language">css</a>
+                </li>
+                <li class="desktop__tag__language">
+                  <a href="#" class="desktop__language">javaScript</a>
+                </li>
+              </ul>
+              <button type="button" class="btn4" data-modal-target="#1" id="1">
+                <a href="#" class="see__project h__effect">See Project</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="desktop__works2">
+          <div class="desktop__cards">
+            <img
+              tabindex="0"
+              class="img2"
+              src="./images/Snapshoot Portfolio2.svg"
+              alt="Project image"
+            />
+            <div class="desktop__clients__info2">
+              <h tabindex="0" class="desktop__project__title"
+                >Multi-Post Stories</h
+              >
+              <ul class="desktop__client">
+                <li tabindex="0" class="desktop__project__name">FACEBOOK</li>
+                <li class="desktop__counter">
+                  <img src="./images/Counter.svg" alt="period" />
+                </li>
+                <li tabindex="0" class="desktop__project__role">
+                  Back End Dev
+                </li>
+                <li class="desktop__counter">
+                  <img src="./images/Counter.svg" alt="period" />
+                </li>
+                <li tabindex="0" class="desktop__year">2015</li>
+              </ul>
+              <p tabindex="0" class="desktop__project__description">
+                Experimental content creation feature that allows users to add
+                to an existing story over the course of a day without spamming
+                their friends.
+              </p>
+              <ul class="desktop__tags">
+                <li class="desktop__tag__language">
+                  <a href="#" class="desktop__language">html</a>
+                </li>
+                <li class="desktop__tag__language">
+                  <a href="#" class="desktop__language">Ruby on rails</a>
+                </li>
+                <li class="desktop__tag__language">
+                  <a href="#" class="desktop__language">css</a>
+                </li>
+                <li class="desktop__tag__language">
+                  <a href="#" class="desktop__language">javaScript</a>
+                </li>
+              </ul>
+              <button type="button" class="btn4" data-modal-target="#2" id="2">
+                <a href="#" class="see__project">See Project</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="desktop__works">
+          <div class="desktop__cards">
+            <img
+              tabindex="0"
+              src="./images/Snapshoot Portfolio3.svg"
+              alt="Project image"
+            />
+            <div class="desktop__clients__info">
+              <h tabindex="0" class="desktop__project__title">Facebook 360</h>
+              <ul class="desktop__client">
+                <li tabindex="0" class="desktop__project__name">FACEBOOK</li>
+                <li class="desktop__counter">
+                  <img tabindex="0" src="./images/Counter.svg" alt="period" />
+                </li>
+                <li tabindex="0" class="desktop__project__role">
+                  Back End Dev
+                </li>
+                <li class="desktop__counter">
+                  <img tabindex="0" src="./images/Counter.svg" alt="period" />
+                </li>
+                <li tabindex="0" class="desktop__year">2015</li>
+              </ul>
+              <p tabindex="0" class="desktop__project__description">
+                Exploring the future of media in Facebook's first Virtual
+                Reality app; a place to discover and enjoy 360 photos and videos
+                on Gear VR.
+              </p>
+              <ul class="desktop__tags">
+                <li class="desktop__tag__language">
+                  <a href="#" class="desktop__language">html</a>
+                </li>
+                <li class="desktop__tag__language">
+                  <a href="#" class="desktop__language">Ruby on rails</a>
+                </li>
+                <li class="desktop__tag__language">
+                  <a href="#" class="desktop__language">css</a>
+                </li>
+                <li class="desktop__tag__language">
+                  <a href="#" class="desktop__language">javaScript</a>
+                </li>
+              </ul>
+              <button type="button" class="btn4" data-modal-target="#3" id="3">
+                <a href="#" class="see__project">See Project</a>
+              </button>
+            </div>
+            <img
+              tabindex="0"
+              class="hand__cursor"
+              src="./images/hand-cursor 1.png"
+              alt="hand cursor image"
+            />
+          </div>
+        </div>
+
+        <div class="desktop__works2">
+          <div class="desktop__cards">
+            <img
+              tabindex="0"
+              class="img2"
+              src="./images/Snapshoot Portfolio4.svg"
+              alt="Project image"
+            />
+            <div class="desktop__clients__info2">
+              <h tabindex="0" class="desktop__project__title"
+                >Uber Navigation</h
+              >
+              <ul class="desktop__client">
+                <li tabindex="0" class="desktop__project__name">Uber</li>
+                <li class="desktop__counter">
+                  <img tabindex="0" src="./images/Counter.svg" alt="period" />
+                </li>
+                <li tabindex="0" class="desktop__project__role">
+                  Lead Developer
+                </li>
+                <li class="desktop__counter">
+                  <img tabindex="0" src="./images/Counter.svg" alt="period" />
+                </li>
+                <li tabindex="0" class="desktop__year">2015</li>
+              </ul>
+              <p tabindex="0" class="desktop__project__description">
+                A smart assistant to make driving more safe, efficient, and fun
+                by unlocking your most expensive computer: your car.
+              </p>
+              <ul class="desktop__tags">
+                <li class="desktop__tag__language">
+                  <a href="#" class="desktop__language">html</a>
+                </li>
+                <li class="desktop__tag__language">
+                  <a href="#" class="desktop__language">Ruby on rails</a>
+                </li>
+                <li class="desktop__tag__language">
+                  <a href="#" class="desktop__language">css</a>
+                </li>
+                <li class="desktop__tag__language">
+                  <a href="#" class="desktop__language">javaScript</a>
+                </li>
+              </ul>
+              <button type="button" class="btn4" data-modal-target="#4" id="4">
+                <a href="#" class="see__project">See Project</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="works">
+        <div class="works__cards" id="portfolio">
+          <img tabindex="0" src="./images/card-1.svg" alt="Project image" />
+          <h tabindex="0" class="project__title">Tonic</h>
+          <ul class="client">
+            <li tabindex="0" class="project__name">Canopy</li>
+            <li class="counter">
+              <img tabindex="0" src="./images/Counter.svg" alt="period" />
+            </li>
+            <li tabindex="0" class="project__role">Back End Dev</li>
+            <li class="counter">
+              <img tabindex="0" src="./images/Counter.svg" alt="period" />
+            </li>
+            <li tabindex="0" class="year">2015</li>
+          </ul>
+          <p tabindex="0" class="project__description">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <ul class="tags">
+            <li class="html">
+              <a href="#" class="language">html</a>
+            </li>
+            <li class="css">
+              <a href="#" class="language">css</a>
+            </li>
+            <li class="javascript">
+              <a href="#" class="language">JavaScript</a>
+            </li>
+          </ul>
+          <button type="button" class="btn" data-model-target="#modal" id="open">
+            <a href="#" class="see__project1">See Project</a>
+          </button>
+        </div>
+
+        <div class="works__cards">
+          <img tabindex="0" src="./images/card-2.svg" alt="Project image" />
+          <h tabindex="0" class="project__title">Multi-Post Stories</h>
+          <ul class="client">
+            <li tabindex="0" class="project__name">Canopy</li>
+            <li class="counter">
+              <img tabindex="0" src="./images/Counter.svg" alt="period" />
+            </li>
+            <li tabindex="0" class="project__role">Back End Dev</li>
+            <li class="counter">
+              <img tabindex="0" src="./images/Counter.svg" alt="period" />
+            </li>
+            <li tabindex="0" class="year">2015</li>
+          </ul>
+          <p tabindex="0" class="project__description">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <ul class="tags">
+            <li class="html">
+              <a href="#" class="language">html</a>
+            </li>
+            <li class="css">
+              <a href="#" class="language">css</a>
+            </li>
+            <li class="javascript">
+              <a href="#" class="language">JavaScript</a>
+            </li>
+          </ul>
+          <button type="button" class="btn" data-model-target="#modal" id="open">
+            <a href="#" class="see__project1">See Project</a>
+          </button>
+        </div>
+
+        <div class="works__cards">
+          <img tabindex="0" src="./images/card-3.svg" alt="Project image" />
+          <h tabindex="0" class="project__title">Tonic</h>
+          <ul class="client">
+            <li tabindex="0" class="project__name">Canopy</li>
+            <li class="counter">
+              <img tabindex="0" src="./images/Counter.svg" alt="Period" />
+            </li>
+            <li tabindex="0" class="project__role">Back End Dev</li>
+            <li class="counter">
+              <img tabindex="0" src="./images/Counter.svg" alt="Period" />
+            </li>
+            <li tabindex="0" class="year">2015</li>
+          </ul>
+          <p tabindex="0" class="project__description">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <ul class="tags">
+            <li class="html">
+              <a href="#" class="language">html</a>
+            </li>
+            <li class="css">
+              <a href="#" class="language">css</a>
+            </li>
+            <li class="javascript">
+              <a href="#" class="language">JavaScript</a>
+            </li>
+          </ul>
+          <button type="button" class="btn" data-model-target="#modal" id="open">
+            <a href="#" data-model-target="#modal" class="see__project1">See Project</a>
+          </button>
+        </div>
+      </section>
+  `;
+  cards.innerHTML += code;
+}
+
+createCards();
+
+document.querySelectorAll('.see__project1').forEach((el, index) => {
+  el.addEventListener('click', () => {
     modal.style.display = 'block';
     allElement.classList.add('mobile-popup');
     modal.innerHTML = `
@@ -164,72 +498,60 @@ ShowBtn.forEach((seeBtn, index) => {
   });
 });
 
-document.body.appendChild(modal);
-
-modal.addEventListener('click', (e) => {
-  if (e.target.id === 'close-btn') {
-    modal.style.display = 'none';
-    allElement.classList.remove('mobile-popup');
-  }
-});
-
-const AllElement = document.querySelector('#all-elements');
-const showBtn = document.querySelectorAll('.see__project');
-const dtModal = document.querySelector('.dt__modal');
-showBtn.forEach((seeBtn, index) => {
-  seeBtn.addEventListener('click', () => {
+document.querySelectorAll('.see__project').forEach((el, index) => {
+  el.addEventListener('click', () => {
     dtModal.style.display = 'block';
-    AllElement.classList.add('dt__blur');
+    AllElement.classList.add('mobile-popup');
     dtModal.innerHTML = `
     <div id="modal">
     <div class="dt__modal">
           <div class="d__modal__header">
               <div class="dt__modal__title__container">
-                  <h class="dt__modal__title">Tonic</h>
+                  <h class="dt__modal__title">${projects[index].desTitle}</h>
                   <button data-close-button class="dt__close-btn" id="close-btn">&times;</button>
               </div>
               <ul class="dt__modal__client">
-                  <li class="dt__modal__client__name">CANOPY</li>
+                  <li class="dt__modal__client__name">${projects[index].client[0]}</li>
                   <li class="d__modal__counter">
                       <img tabindex="0" src="./images/Counter.svg" alt="period" />
                   </li>
-                  <li class="dt__modal__client__role">Back End Dev</li>
+                  <li class="dt__modal__client__role">${projects[index].client[1]}</li>
                   <li class="d__modal__counter">
                       <img tabindex="0" src="./images/Counter.svg" alt="period" />
                   </li>
-                  <li class="dt__modal__year">2015</li>  
+                  <li class="dt__modal__year">${projects[index].client[2]}</li>  
               </ul>
           </div>
   
           <div class="d__modal__image">
-              <img class="dt__modal__img" src="./images/Snapshoot Portfolio1.png" alt="">
+              <img class="dt__modal__img" src="${projects[index].featureImageDes}" alt="">
           </div>
   
           <div class="dt__modal__main">
               <div class="d__modal__text">
-                  <p class="dt__modal__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+                  <p class="dt__modal__text">${projects[index].descriptionMod}</p>
               </div>
               <div class="technologies">
                   <ul class="first__tech">
                       <li class="dt__modal__html">
-                          <a class="dt__modal__tech" href="#">html</a>
+                          <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[0]}</a>
                       </li>
                       <li class="dt__modal__css">
-                          <a class="dt__modal__tech" href="#">css</a>
+                          <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[1]}</a>
                       </li>
                       <li class="dt__modal__javascript">
-                          <a class="dt__modal__tech" href="#">javascript</a>
+                          <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[2]}</a>
                       </li>
                   </ul>
                   <ul class="sec__tech">
                       <li class="dt__modal__github">
-                          <a class="dt__modal__tech" href="#">github</a>
+                          <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[3]}</a>
                       </li>
                       <li class="dt__modal__ruby">
-                          <a class="dt__modal__tech" href="#">ruby</a>
+                          <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[4]}</a>
                       </li>
                       <li class="dt__modal__bootstraps">
-                          <a class="dt__modal__tech" href="#">Bootstraps</a>
+                          <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[5]}</a>
                       </li>
                   </ul>
               </div>
@@ -251,13 +573,4 @@ showBtn.forEach((seeBtn, index) => {
       </div>
     `;
   });
-});
-
-document.body.appendChild(dtModal);
-
-dtModal.addEventListener('click', (e) => {
-  if (e.target.id === 'dt__close-btn') {
-    modal.style.display = 'none';
-    AllElement.classList.remove('dt__blur');
-  }
 });
