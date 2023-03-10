@@ -234,6 +234,12 @@ https://tsheporamantso.github.io/portfolio/
 - Twitter: [@kwakuamoafo](https://twitter.com/kwakuamoafo)
 - LinkedIn: [@lawrenceamoafo](https://www.linkedin.com/in/lawrenceamoafo)
 
+👤 **Amarachi Dimkpa**
+
+- GitHub: [@amazinggacee](https://github.com/Amazinggracee)
+- Twitter: [@amazinggaceu](https://twitter.com/amazinggraceu)
+- LinkedIn: [Amarachi Dimkpa](https://linkedin.com/in/amarachi-dimkpa-070643183)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
