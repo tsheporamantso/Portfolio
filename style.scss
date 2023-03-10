@@ -23,6 +23,10 @@ $color-16: #6b778c;
 /**
 *! Break points variables
 **/
+.small {
+  color: red;
+  font-size: 15px;
+}
 
 $bp: (
   mobile: 375px,
