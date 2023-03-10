@@ -185,3 +185,75 @@ btn.addEventListener('click', () => {
 //     closeModel(popupWindow);
 //   });
 // });
+
+
+
+
+
+
+<div class="dtmodal">
+<div class="d__modal__header">
+    <div class="dt__modal__title__container">
+        <h class="dt__modal__title">${projects[index].desTitle}</h>
+        <button data-close-button class="dt__close-btn" id="close-btn">&times;</button>
+    </div>
+    <ul class="dt__modal__client">
+        <li class="dt__modal__client__name">${projects[index].client[0]}</li>
+        <li class="d__modal__counter">
+            <img tabindex="0" src="./images/Counter.svg" alt="period" />
+        </li>
+        <li class="dt__modal__client__role">${projects[index].client[1]}</li>
+        <li class="d__modal__counter">
+            <img tabindex="0" src="./images/Counter.svg" alt="period" />
+        </li>
+        <li class="dt__modal__year">${projects[index].client[2]}</li>  
+    </ul>
+</div>
+
+<div class="d__modal__image">
+    <img class="dt__modal__img" src="${projects[index].featureImageDes}" alt="">
+</div>
+
+<div class="dt__modal__main">
+    <div class="d__modal__text">
+        <p class="dt__modal__text">${projects[index].descriptionMod}</p>
+    </div>
+    <div class="technologies">
+        <ul class="first__tech">
+            <li class="dt__modal__html">
+                <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[0]}</a>
+            </li>
+            <li class="dt__modal__css">
+                <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[1]}</a>
+            </li>
+            <li class="dt__modal__javascript">
+                <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[2]}</a>
+            </li>
+        </ul>
+        <ul class="sec__tech">
+            <li class="dt__modal__github">
+                <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[3]}</a>
+            </li>
+            <li class="dt__modal__ruby">
+                <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[4]}</a>
+            </li>
+            <li class="dt__modal__bootstraps">
+                <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[5]}</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="btn-container">
+    <button class="see-live-container-btn">
+      <a id="see__live" href="${projects[index].live}" class="see-live-btn"
+        >See live &nbsp
+        <img src="./images/Icon.svg" alt="see-live-icon" />
+      </a>
+    </button>
+    <button class="see-source-container-btn">
+      <a id="see__source" href="${projects[index].source}" class="see-source-btn"
+        >See Source &nbsp
+        <img src="./images/github.svg" alt="see-source-icon" />
+      </a>
+    </button>
+</div>
