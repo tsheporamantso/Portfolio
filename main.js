@@ -108,6 +108,7 @@ const projects = [
 
 ];
 
+// This function is for close for mobile ------------------------------->
 const allElement = document.querySelector('#all-elements');
 const modal = document.querySelector('.modal');
 
@@ -120,18 +121,22 @@ modal.addEventListener('click', (e) => {
   }
 });
 
-const AllElement = document.querySelector('#all-elements');
-const dtModal = document.querySelector('.dt__modal');
+// Ends here---------------------------------------------------------^
 
-document.body.appendChild(dtModal);
+// const AllElement = document.querySelector('#all-elements');
+// const dtModal = document.querySelector('.dt__modal');
 
-dtModal.addEventListener('click', (e) => {
-  if (e.target.id === 'dt__close-btn') {
-    modal.style.display = 'none';
-    AllElement.classList.remove('mobile-popup');
-  }
-});
+// document.body.appendChild(dtModal);
 
+// dtModal.addEventListener('click', (e) => {
+//   if (e.target.id === 'dt__close-btn') {
+//     modal.style.display = 'none';
+//     AllElement.classList.remove('mobile-popup');
+//   }
+// });
+
+
+//  Dynamic designs for all cards -------------------------------------------->
 const cards = document.querySelector('.allProjects');
 function createCards() {
   const code = `
@@ -174,7 +179,7 @@ function createCards() {
                 </li>
               </ul>
               <button type="button" class="btn4" data-modal-target="#1" id="1">
-                <a href="#" class="see__project h__effect">See Project</a>
+                <a href="#" class="see__project1 h__effect">See Project</a>
               </button>
             </div>
           </div>
@@ -225,7 +230,7 @@ function createCards() {
                 </li>
               </ul>
               <button type="button" class="btn4" data-modal-target="#2" id="2">
-                <a href="#" class="see__project">See Project</a>
+                <a href="#" class="see__project1">See Project</a>
               </button>
             </div>
           </div>
@@ -273,7 +278,7 @@ function createCards() {
                 </li>
               </ul>
               <button type="button" class="btn4" data-modal-target="#3" id="3">
-                <a href="#" class="see__project">See Project</a>
+                <a href="#" class="see__project1">See Project</a>
               </button>
             </div>
             <img
@@ -329,7 +334,7 @@ function createCards() {
                 </li>
               </ul>
               <button type="button" class="btn4" data-modal-target="#4" id="4">
-                <a href="#" class="see__project">See Project</a>
+                <a href="#" class="see__project1">See Project</a>
               </button>
             </div>
           </div>
@@ -445,6 +450,11 @@ function createCards() {
 
 createCards();
 
+//  ----------------------Ends here --------------------------------------------^
+
+
+//  Dynamic designs for the both-popup and the opening function -------------------------------------------->
+
 document.querySelectorAll('.see__project1').forEach((el, index) => {
   el.addEventListener('click', () => {
     modal.style.display = 'block';
@@ -467,6 +477,31 @@ document.querySelectorAll('.see__project1').forEach((el, index) => {
     <li class="modal__client__year">${projects[index].client[2]}</li>
   </ul>
   <img class="modal__image" src="${projects[index].featureImageMob}">
+  <div class="technologies">
+    <ul class="first__tech">
+        <li class="dt__modal__html">
+            <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[0]}</a>
+        </li>
+        <li class="dt__modal__css">
+            <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[1]}</a>
+        </li>
+        <li class="dt__modal__javascript">
+            <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[2]}</a>
+        </li>
+    </ul>
+    <ul class="sec__tech">
+        <li class="dt__modal__github">
+            <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[3]}</a>
+        </li>
+        <li class="dt__modal__ruby">
+            <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[4]}</a>
+        </li>
+        <li class="dt__modal__bootstraps">
+            <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[5]}</a>
+        </li>
+    </ul>
+    <hr class="hr-bar">
+  </div>
   <p class="modal__text" id="modal__text">${projects[index].descriptionMod}</p>
   <ul class="modal__tech">
     <li class="modal__html">
@@ -498,79 +533,87 @@ document.querySelectorAll('.see__project1').forEach((el, index) => {
   });
 });
 
-document.querySelectorAll('.see__project').forEach((el, index) => {
-  el.addEventListener('click', () => {
-    dtModal.style.display = 'block';
-    AllElement.classList.add('mobile-popup');
-    dtModal.innerHTML = `
-    <div id="modal">
-    <div class="dt__modal">
-          <div class="d__modal__header">
-              <div class="dt__modal__title__container">
-                  <h class="dt__modal__title">${projects[index].desTitle}</h>
-                  <button data-close-button class="dt__close-btn" id="close-btn">&times;</button>
-              </div>
-              <ul class="dt__modal__client">
-                  <li class="dt__modal__client__name">${projects[index].client[0]}</li>
-                  <li class="d__modal__counter">
-                      <img tabindex="0" src="./images/Counter.svg" alt="period" />
-                  </li>
-                  <li class="dt__modal__client__role">${projects[index].client[1]}</li>
-                  <li class="d__modal__counter">
-                      <img tabindex="0" src="./images/Counter.svg" alt="period" />
-                  </li>
-                  <li class="dt__modal__year">${projects[index].client[2]}</li>  
-              </ul>
-          </div>
+//  ----------------------Ends here --------------------------------------------^
+
+
+
+//  Dynamic designs for the desktop-popup and the opening function -------------------------------------------->
+
+// document.querySelectorAll('.see__project').forEach((el, index) => {
+//   el.addEventListener('click', () => {
+//     dtModal.style.display = 'block';
+//     AllElement.classList.add('mobile-popup');
+//     dtModal.innerHTML = `
+//     <div id="modal">
+//     <div class="dt__modal">
+//           <div class="d__modal__header">
+//               <div class="dt__modal__title__container">
+//                   <h class="dt__modal__title">${projects[index].desTitle}</h>
+//                   <button data-close-button class="dt__close-btn" id="close-btn">&times;</button>
+//               </div>
+//               <ul class="dt__modal__client">
+//                   <li class="dt__modal__client__name">${projects[index].client[0]}</li>
+//                   <li class="d__modal__counter">
+//                       <img tabindex="0" src="./images/Counter.svg" alt="period" />
+//                   </li>
+//                   <li class="dt__modal__client__role">${projects[index].client[1]}</li>
+//                   <li class="d__modal__counter">
+//                       <img tabindex="0" src="./images/Counter.svg" alt="period" />
+//                   </li>
+//                   <li class="dt__modal__year">${projects[index].client[2]}</li>  
+//               </ul>
+//           </div>
   
-          <div class="d__modal__image">
-              <img class="dt__modal__img" src="${projects[index].featureImageDes}" alt="">
-          </div>
+//           <div class="d__modal__image">
+//               <img class="dt__modal__img" src="${projects[index].featureImageDes}" alt="">
+//           </div>
   
-          <div class="dt__modal__main">
-              <div class="d__modal__text">
-                  <p class="dt__modal__text">${projects[index].descriptionMod}</p>
-              </div>
-              <div class="technologies">
-                  <ul class="first__tech">
-                      <li class="dt__modal__html">
-                          <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[0]}</a>
-                      </li>
-                      <li class="dt__modal__css">
-                          <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[1]}</a>
-                      </li>
-                      <li class="dt__modal__javascript">
-                          <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[2]}</a>
-                      </li>
-                  </ul>
-                  <ul class="sec__tech">
-                      <li class="dt__modal__github">
-                          <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[3]}</a>
-                      </li>
-                      <li class="dt__modal__ruby">
-                          <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[4]}</a>
-                      </li>
-                      <li class="dt__modal__bootstraps">
-                          <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[5]}</a>
-                      </li>
-                  </ul>
-              </div>
-          </div>
-          <div class="btn-container">
-              <button class="see-live-container-btn">
-                <a id="see__live" href="${projects[index].live}" class="see-live-btn"
-                  >See live &nbsp
-                  <img src="./images/Icon.svg" alt="see-live-icon" />
-                </a>
-              </button>
-              <button class="see-source-container-btn">
-                <a id="see__source" href="${projects[index].source}" class="see-source-btn"
-                  >See Source &nbsp
-                  <img src="./images/github.svg" alt="see-source-icon" />
-                </a>
-              </button>
-      </div>
-      </div>
-    `;
-  });
-});
+//           <div class="dt__modal__main">
+//               <div class="d__modal__text">
+//                   <p class="dt__modal__text">${projects[index].descriptionMod}</p>
+//               </div>
+//               <div class="technologies">
+//                   <ul class="first__tech">
+//                       <li class="dt__modal__html">
+//                           <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[0]}</a>
+//                       </li>
+//                       <li class="dt__modal__css">
+//                           <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[1]}</a>
+//                       </li>
+//                       <li class="dt__modal__javascript">
+//                           <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[2]}</a>
+//                       </li>
+//                   </ul>
+//                   <ul class="sec__tech">
+//                       <li class="dt__modal__github">
+//                           <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[3]}</a>
+//                       </li>
+//                       <li class="dt__modal__ruby">
+//                           <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[4]}</a>
+//                       </li>
+//                       <li class="dt__modal__bootstraps">
+//                           <a class="dt__modal__tech" href="#">${projects[index].desTechnologies[5]}</a>
+//                       </li>
+//                   </ul>
+//               </div>
+//           </div>
+//           <div class="btn-container">
+//               <button class="see-live-container-btn">
+//                 <a id="see__live" href="${projects[index].live}" class="see-live-btn"
+//                   >See live &nbsp
+//                   <img src="./images/Icon.svg" alt="see-live-icon" />
+//                 </a>
+//               </button>
+//               <button class="see-source-container-btn">
+//                 <a id="see__source" href="${projects[index].source}" class="see-source-btn"
+//                   >See Source &nbsp
+//                   <img src="./images/github.svg" alt="see-source-icon" />
+//                 </a>
+//               </button>
+//       </div>
+//       </div>
+//     `;
+//   });
+// });
+
+//  ----------------------Ends here --------------------------------------------^

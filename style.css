@@ -687,11 +687,9 @@ textarea::placeholder {
   align-items: center;
   box-sizing: border-box;
   background-color: white;
-  position: fixed;
-  left: 14px;
-  right: 0;
-  top: 7px;
-  bottom: 0;
+  position: absolute;
+  left: 25%;
+  top: 25%;
   height: 653px;
   width: 343px;
   border: 1px solid #dfe1e6;
@@ -776,17 +774,6 @@ textarea::placeholder {
   padding: 0;
 }
 
-.modal__tech {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  position: relative;
-  bottom: 40px;
-  gap: 15px;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
 
 .modal__technologies {
   font-weight: 500;
@@ -868,9 +855,9 @@ textarea::placeholder {
     box-sizing: border-box;
     font-size: 100%;
   }
-  .modal__image {
+  /* .modal__image {
     display: none;
-  }
+  } */
   .hamburger,
   .nav__menu__mobile,
   .modal,
@@ -1083,9 +1070,7 @@ textarea::placeholder {
   .about__self {
     width: 40%;
   }
-  .technologies {
-    width: 60%;
-  }
+  
   .about__myself__container {
     display: flex;
     flex-direction: row;
@@ -1328,6 +1313,42 @@ textarea::placeholder {
     width: 1108px;
     height: 586px;
   }
+
+  
+}/*# sourceMappingURL=style.css.map */
+
+
+/* Hamza's styling starts from here */
+
+.modal__tech {
+  /* display: flex; */
+  align-items: center;
+  position: relative;
+  bottom: 40px;
+  gap: 15px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.technologies {
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+  margin-right: -60%;
+  margin-top: 1%;
+}
+.hr-bar {
+
+  width:298px;
+  text-align:center;
+  margin-left:5%;
+  border: 1px solid #EBECF0;
+}
+
+
+
+@media screen and (max-width:767px){
   .modal__image {
     display: flex;
     position: relative;
@@ -1335,4 +1356,62 @@ textarea::placeholder {
     width: 100%;
     padding: 0;
   }
-}/*# sourceMappingURL=style.css.map */
+
+  .modal__tech {
+    display: flex;
+  }
+
+  .technologies {
+    display: none;
+    width: 100%;
+
+    height: 100%;
+  }
+
+ }
+
+@media screen and (min-width:768px){
+
+  .modal__image {
+    display: flex;
+    position: relative;
+    bottom: 15px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .modal__tech {
+    display: none;
+  }
+
+  .technologies {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    /* width: 30%; */
+  }
+
+  .modal__text {
+    font-weight: 400;
+    font-size: 16px;
+    width: 60%;
+    /* height: 282px; */
+    color: #344563;
+    margin-left: -37%;
+    margin-top: -10%;
+  }
+
+  #modal {
+    height: 120%;
+    width: 100%;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    /* padding: 16px; */
+    /* gap: 5px; */
+  }
+
+  .btn-container {
+    display: none;
+  }
+
+}

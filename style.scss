@@ -906,9 +906,9 @@ textarea::placeholder {
     font-size: 100%;
   }
 
-  .modal__image {
-    display: none;
-  }
+  // .modal__image {
+  //   display: none;
+  // }
 
   .hamburger,
   .nav__menu__mobile,
@@ -1601,10 +1601,27 @@ background-color: #ebebff;
   }
 
   .modal__image {
-    display: flex;
-    position: relative;
-    bottom: 15px;
-    width: 100%;
+    // display: flex;
+    // position: relative;
+    // bottom: 15px;
+    // width: 100%;
+    // padding: 0;
+  }
+}
+
+// Hamza's styling starts from here
+
+// @media screen and (max-width:767px){
+
+// }
+
+@media screen and (min-width:768px){
+
+  .modal__image {
+    // display: flex;
+    // position: relative;
+    // bottom: 15px;
+    // width: 100%;
     padding: 0;
   }
 }
