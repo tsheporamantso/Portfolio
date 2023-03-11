@@ -696,7 +696,7 @@ textarea::placeholder {
   box-sizing: border-box;
   background-color: white;
   position: absolute;
-  left: 25%;
+  left: 20%;
   top: 25%;
   height: 653px;
   width: 343px;
@@ -1202,7 +1202,7 @@ textarea::placeholder {
     border: 1px solid #ebecf0;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     position: absolute;
-    top: 20px;
+    left: 215px;
     border-radius: 8px;
     width: 1156px;
     height: 1163px;
