@@ -23,6 +23,10 @@ $color-16: #6b778c;
 /**
 *! Break points variables
 **/
+.small {
+  color: red;
+  font-size: 15px;
+}
 
 $bp: (
   mobile: 375px,
@@ -734,6 +738,15 @@ textarea::placeholder {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
+  background-color: #ffff;
+  position: fixed;
+  top: 20px;
+  // width: 343px;
+  border: 1px solid $color-8;
+  border-radius: 16px;
+  padding: 16px;
+  gap: 12px;
   width: 100%;
 }
 
