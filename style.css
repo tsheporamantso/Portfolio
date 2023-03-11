@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300&display=swap");
+
 /**
 *! Color variables
 **/
+
 /**
 *! Break points variables
 **/
@@ -13,23 +15,28 @@
 /**
 *! Media Query Renderer
 **/
+
 /**
 *! Removing default browser style
 **/
 * {
   box-sizing: border-box;
 }
+
 * body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   background-color: #e5e5e5;
 }
+
 * a {
   text-decoration: none;
 }
+
 * li {
   list-style: none;
 }
+
 * img:hover {
   transform: scale(1.04);
 }
@@ -719,7 +726,6 @@ textarea::placeholder {
   background-color: white;
   position: fixed;
   top: 20px;
-  width: 343px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   padding: 16px;
@@ -869,6 +875,7 @@ textarea::placeholder {
     box-sizing: border-box;
     font-size: 100%;
   }
+
   .hamburger,
   .nav__menu__mobile,
   .modal,
@@ -876,12 +883,15 @@ textarea::placeholder {
   .works {
     display: none;
   }
+
   #modal {
     display: none;
   }
+
   .logo {
     margin-left: 200px;
   }
+
   .navbar {
     width: 1565px;
     display: flex;
@@ -890,6 +900,7 @@ textarea::placeholder {
     justify-content: space-between;
     background-color: white;
   }
+
   .nav__menu__desktop {
     display: flex;
     flex-direction: row;
@@ -902,15 +913,18 @@ textarea::placeholder {
     color: #344563;
     gap: 20px;
   }
+
   .nav__links {
     font-weight: 500;
     font-size: 15px;
     color: #344563;
     transition: 0.7s;
   }
+
   .nav__links:hover {
     background-color: #e5e5e5;
   }
+
   .headline {
     background-image: url("./images/Header bg.svg");
     background-position: top center;
@@ -918,6 +932,7 @@ textarea::placeholder {
     width: 1565px;
     border-radius: 0 0 0 70px;
   }
+
   .header__title {
     font-weight: 700;
     font-size: 48px;
@@ -926,6 +941,7 @@ textarea::placeholder {
     letter-spacing: 0.037px;
     margin: 0;
   }
+
   .header__description {
     font-weight: 400;
     font-size: 20px;
@@ -934,18 +950,22 @@ textarea::placeholder {
     padding-top: 12px;
     margin: 0;
   }
+
   .header__connect {
     margin-right: 595px;
   }
+
   .header__social__media {
     margin-right: 595px;
   }
+
   .desktop__works {
     display: grid;
     grid-template-columns: 1565px;
     place-items: center;
     margin-top: 100px;
   }
+
   .desktop__cards {
     display: flex;
     flex-direction: row;
@@ -960,6 +980,7 @@ textarea::placeholder {
     margin: 0;
     gap: 20px;
   }
+
   .desktop__clients__info {
     display: flex;
     flex-direction: column;
@@ -967,6 +988,7 @@ textarea::placeholder {
     justify-content: flex-start;
     margin-bottom: 80px;
   }
+
   .desktop__project__title {
     font-weight: 700;
     font-size: 40px;
@@ -974,6 +996,7 @@ textarea::placeholder {
     color: #091e42;
     align-self: flex-start;
   }
+
   .desktop__client {
     display: flex;
     flex-direction: row;
@@ -982,29 +1005,35 @@ textarea::placeholder {
     width: 100%;
     padding: 0;
   }
+
   .desktop__project__name {
     font-weight: 500;
     font-size: 18px;
     color: #344563;
   }
+
   .desktop__counter {
     color: #c1c7d0;
   }
+
   .desktop__project__role {
     font-weight: 400;
     font-size: 18px;
     color: #6b778c;
   }
+
   .desktop__year {
     font-weight: 400;
     font-size: 18px;
     color: #6b778c;
   }
+
   .desktop__project__description {
     font-weight: 400;
     font-size: 16px;
     color: #344563;
   }
+
   .desktop__tags {
     display: flex;
     flex-direction: row;
@@ -1013,19 +1042,23 @@ textarea::placeholder {
     width: 100%;
     padding: 0;
   }
+
   .desktop__tags:hover {
     transform: scale(1.04);
   }
+
   .desktop__tag__language {
     background-color: #ebebff;
     border-radius: 8px;
     padding: 4px 12px;
   }
+
   .desktop__language {
     font-weight: 500;
     font-size: 12px;
     color: #6070ff;
   }
+
   .btn4 {
     align-self: flex-start;
     background-color: white;
@@ -1036,12 +1069,15 @@ textarea::placeholder {
     max-width: -moz-max-content;
     max-width: max-content;
   }
+
   .btn4:hover {
     background-color: #6070ff;
   }
+
   .btn4:active {
     background-color: #2230d2;
   }
+
   .see__project {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -1050,19 +1086,23 @@ textarea::placeholder {
     letter-spacing: 0.03em;
     color: #396df2;
   }
+
   .see__project:hover {
     color: white;
   }
+
   .desktop__works2 {
     display: grid;
     grid-template-columns: 1565px;
     place-items: center;
     margin-top: 100px;
   }
+
   .img2 {
     position: relative;
     left: 585px;
   }
+
   .desktop__clients__info2 {
     display: flex;
     flex-direction: column;
@@ -1073,17 +1113,21 @@ textarea::placeholder {
     padding-left: 12px;
     right: 565px;
   }
+
   .hand__cursor {
     position: relative;
     right: 108px;
     top: 108px;
   }
+
   .about__self {
     width: 40%;
   }
+
   .about__technologies {
     width: 60%;
   }
+
   .about__myself__container {
     display: flex;
     flex-direction: row;
@@ -1092,10 +1136,12 @@ textarea::placeholder {
     width: 1565px;
     padding: 50px 60px 0 60px;
   }
+
   .language__list__container {
     display: flex;
     flex-direction: row;
   }
+
   .language__list {
     margin: 10px;
     display: flex;
@@ -1104,30 +1150,36 @@ textarea::placeholder {
     width: 122px;
     height: 120px;
   }
+
   .about__myself__title {
     position: relative;
     bottom: 10%;
     padding: 12px;
   }
+
   .about__myself__description {
     position: relative;
     bottom: 20%;
     padding: 12px;
   }
+
   .about__myself__connect {
     position: relative;
     bottom: 30%;
     padding: 12px;
   }
+
   .about__myself__socials {
     position: relative;
     bottom: 40%;
     padding: 19px;
   }
+
   .btn2 {
     position: relative;
     bottom: 50%;
   }
+
   .contact__form__section {
     background-image: url("./images/contact form background shapes.svg");
     background-repeat: no-repeat;
@@ -1135,14 +1187,17 @@ textarea::placeholder {
     width: 1565px;
     margin-top: -300px;
   }
+
   .contact__form__description {
     max-width: 569px;
   }
+
   .btn3 {
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .mobile-popup {
     filter: blur(5px);
     -webkit-filter: blur(5px);
@@ -1151,6 +1206,7 @@ textarea::placeholder {
     -ms-filter: blur(5px);
     z-index: 1;
   }
+
   .dt__modal #modal {
     display: flex;
     flex-direction: column;
@@ -1165,16 +1221,19 @@ textarea::placeholder {
     padding: 12px;
     z-index: 0;
   }
+
   .dt__modal__title__container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
+
   .dt__modal__title {
     font-weight: 700;
     font-size: 40px;
     color: #091e42;
   }
+
   .close-btn {
     cursor: pointer;
     border: none;
@@ -1184,53 +1243,63 @@ textarea::placeholder {
     font-weight: bold;
     color: #67798e;
   }
+
   .dt__modal__client {
     display: flex;
     align-items: center;
     gap: 20px;
     padding: 0;
   }
+
   .dt__modal__client__name {
     font-weight: 600;
     font-size: 13px;
     color: #344563;
   }
+
   .dt__modal__client__role {
     font-weight: 600;
     font-size: 13px;
     color: #344563;
   }
+
   .dt__modal__year {
     font-weight: 600;
     font-size: 13px;
     color: #344563;
   }
+
   .dt__modal__img {
     display: flex;
     width: 1108px;
     height: 586px;
   }
+
   .dt__modal__text {
     font-weight: 400;
     font-size: 16px;
     width: 778px;
     color: #344563;
   }
+
   .dt__modal__main {
     display: flex;
   }
+
   .first__tech {
     display: flex;
     align-items: center;
     flex-direction: row;
     gap: 20px;
   }
+
   .sec__tech {
     display: flex;
     align-items: center;
     flex-direction: row;
     gap: 20px;
   }
+
   .dt__modal__tech {
     font-weight: 500;
     font-size: 12px;
@@ -1238,36 +1307,43 @@ textarea::placeholder {
     letter-spacing: 0.03em;
     color: #6070ff;
   }
+
   .dt__modal__html {
     border-radius: 8px;
     padding: 4px 12px;
     background-color: #ebebff;
   }
+
   .dt__modal__css {
     border-radius: 8px;
     padding: 4px 12px;
     background-color: #ebebff;
   }
+
   .dt__modal__javascript {
     border-radius: 8px;
     padding: 4px 12px;
     background-color: #ebebff;
   }
+
   .dt__modal__github {
     border-radius: 8px;
     padding: 4px 12px;
     background-color: #ebebff;
   }
+
   .dt__modal__ruby {
     border-radius: 8px;
     padding: 4px 12px;
     background-color: #ebebff;
   }
+
   .dt__modal__bootstraps {
     border-radius: 8px;
     padding: 4px 12px;
     background-color: #ebebff;
   }
+
   .btn-container {
     display: flex;
     align-items: center;
@@ -1277,6 +1353,7 @@ textarea::placeholder {
     width: 100%;
     padding: 0;
   }
+
   .see-live-container-btn {
     background-color: white;
     border: 1px solid #dfe1e6;
@@ -1287,6 +1364,7 @@ textarea::placeholder {
     width: 124px;
     height: 48px;
   }
+
   .see-live-btn {
     display: flex;
     align-items: center;
@@ -1296,6 +1374,7 @@ textarea::placeholder {
     font-size: 15px;
     color: #396df2;
   }
+
   .see-source-container-btn {
     background-color: white;
     border: 1px solid #dfe1e6;
@@ -1306,6 +1385,7 @@ textarea::placeholder {
     width: 124px;
     height: 48px;
   }
+
   .see-source-btn {
     display: flex;
     align-items: center;
@@ -1316,6 +1396,7 @@ textarea::placeholder {
     color: #6070ff;
   }
 }
+
 @media screen and (max-width: 767px) {
   .dt__modal__img {
     display: none;
@@ -1323,6 +1404,7 @@ textarea::placeholder {
     height: 586px;
   }
 }
+
 /* Hamza's styling starts from here */
 .modal__tech {
   align-items: center;
@@ -1410,18 +1492,22 @@ textarea::placeholder {
     width: 100%;
     padding: 0;
   }
+
   .modal__tech {
     display: flex;
   }
+
   .technologies {
     display: none;
     width: 100%;
     height: 100%;
   }
+
   .dt-btn-container {
     display: none;
   }
 }
+
 @media screen and (min-width: 768px) {
   .modal__image {
     display: flex;
@@ -1430,14 +1516,17 @@ textarea::placeholder {
     width: 100%;
     padding: 0;
   }
+
   .modal__tech {
     display: none;
   }
+
   .technologies {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
   }
+
   .modal__text {
     font-weight: 400;
     font-size: 16px;
@@ -1447,16 +1536,19 @@ textarea::placeholder {
     margin-top: -10%;
     line-height: 200%;
   }
+
   #modal {
     height: 120%;
     width: 100%;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
   }
+
   .btn-container {
     display: none;
   }
+
   .dt-btn-container {
     display: flex;
   }
-}/*# sourceMappingURL=style.css.map */
+}
