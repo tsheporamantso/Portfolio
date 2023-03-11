@@ -7,529 +7,226 @@
     <link rel="stylesheet" href="style.css" />
     <title>Personal Portfolio Title Page</title>
     <script src="main.js" defer></script>
-    <script src="index.js" defer></script> 
+    <script src="index.js" defer></script>
   </head>
 
   <body>
     <!-- /**
         *! Logo and toolbar section here.
         **/ -->
-    <div id="all-elements">
-    <header class="header">
-      <nav class="navbar">
-        <a href="#" class="logo">GLADWIN.</a>
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-        <ul class="nav__menu__desktop">
-          <li>
-            <a href="#portfolio2" class="nav__links__desktop">Portfolio</a>
-          </li>
-          <li>
-            <a href="#about__me" class="nav__links__desktop">About</a>
-          </li>
-          <li>
-            <a href="#contact" class="nav__links__desktop">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <nav class="nav__menu__mobile">
-        <ul class="nav__links__mobile">
-          <li>
-            <a href="#portfolio" class="dt__link">Portfolio</a>
-          </li>
-          <li>
-            <a href="#about__me" class="dt__link">About</a>
-          </li>
-          <li>
-            <a href="#contact" class="dt__link">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
 
-    <!-- /**
+    <div class="modal dt__modal" id="modal"></div>
+    <div id="all-elements">
+      <header class="header">
+        <nav class="navbar">
+          <a href="#" class="logo">GLADWIN.</a>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="nav__menu__desktop">
+            <li>
+              <a href="#portfolio2" class="nav__links__desktop">Portfolio</a>
+            </li>
+            <li>
+              <a href="#about__me" class="nav__links__desktop">About</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav__links__desktop">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="nav__menu__mobile">
+          <ul class="nav__links__mobile">
+            <li>
+              <a href="#portfolio" class="dt__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#about__me" class="dt__link">About</a>
+            </li>
+            <li>
+              <a href="#contact" class="dt__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- /**
         *! Main Section Here.
         **/ -->
 
-    <section class="headline">
-      <h1 tabindex="0" class="header__title">
-        I'm Gladwin <br />
-        Glad to see you!
-      </h1>
-      <p tabindex="0" class="header__description">
-        I'm a software developer! I can help you build a product , feature or
-        website Look through some of my work and experience! If you like what
-        you see and have a project you need coded, don't hestiate to contact me.
-      </p>
-      <h class="header__connect">
-        <a href="#">LET'S CONNECT</a>
-      </h>
-      <ul class="header__social__media">
-        <li class="twitter">
-          <a href="#">
-            <img src="./images/twitter.svg" alt="twitter-logo" />
-          </a>
-        </li>
-        <li class="linkedin">
-          <a href="#">
-            <img src="./images/Linkedin icon.svg" alt="linkedin-logo" />
-          </a>
-        </li>
-        <li class="medium">
-          <a href="#">
-            <img src="./images/medium.svg" alt="medium-logo" />
-          </a>
-        </li>
-        <li class="github">
-          <a href="#">
-            <img src="./images/github.svg" alt="github-logo" />
-          </a>
-        </li>
-        <li class="angellist">
-          <a href="#">
-            <img src="./images/angellist.svg" alt="angellist-logo" />
-          </a>
-        </li>
-      </ul>
-    </section>
+      <section class="headline">
+        <h1 tabindex="0" class="header__title">
+          I'm Gladwin <br />
+          Glad to see you!
+        </h1>
+        <p tabindex="0" class="header__description">
+          I'm a software developer! I can help you build a product , feature or
+          website Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don't hestiate to contact
+          me.
+        </p>
+        <h class="header__connect">
+          <a href="#">LET'S CONNECT</a>
+        </h>
+        <ul class="header__social__media">
+          <li class="twitter">
+            <a href="#">
+              <img src="./images/twitter.svg" alt="twitter-logo" />
+            </a>
+          </li>
+          <li class="linkedin">
+            <a href="#">
+              <img src="./images/Linkedin icon.svg" alt="linkedin-logo" />
+            </a>
+          </li>
+          <li class="medium">
+            <a href="#">
+              <img src="./images/medium.svg" alt="medium-logo" />
+            </a>
+          </li>
+          <li class="github">
+            <a href="#">
+              <img src="./images/github.svg" alt="github-logo" />
+            </a>
+          </li>
+          <li class="angellist">
+            <a href="#">
+              <img src="./images/angellist.svg" alt="angellist-logo" />
+            </a>
+          </li>
+        </ul>
+      </section>
 
-    <div class="modal" id="modal"></div>
-
-    <!-- /**
+      <!-- /**
         *! Desktop Version Works Section Here.
         **/ -->
-    <div id="all__elements">
-      <section class="desktop__cards__container">
-        <div class="desktop__works" id="portfolio2">
-          <div class="desktop__cards">
-            <img
-              tabindex="0"
-              src="./images/Snapshoot Portfolio1.png"
-              alt="Project image"
-            />
-            <div class="desktop__clients__info">
-              <h tabindex="0" class="desktop__project__title">Tonic</h>
-              <ul class="desktop__client">
-                <li tabindex="0" class="desktop__project__name">Canopy</li>
-                <li class="desktop__counter">
-                  <img tabindex="0" src="./images/Counter.svg" alt="period" />
-                </li>
-                <li tabindex="0" class="desktop__project__role">
-                  Back End Dev
-                </li>
-                <li class="desktop__counter">
-                  <img tabindex="0" src="./images/Counter.svg" alt="period" />
-                </li>
-                <li tabindex="0" class="desktop__year">2015</li>
-              </ul>
-              <p tabindex="0" class="desktop__project__description">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
-              </p>
-              <ul class="desktop__tags">
-                <li class="desktop__tag__language">
-                  <a href="#" class="desktop__language">html</a>
-                </li>
-                <li class="desktop__tag__language">
-                  <a href="#" class="desktop__language">css</a>
-                </li>
-                <li class="desktop__tag__language">
-                  <a href="#" class="desktop__language">javaScript</a>
-                </li>
-              </ul>
-              <button type="button" class="btn4" data-modal-target="#1" id="1">
-                <a href="#" class="see__project">See Project</a>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="desktop__works2">
-          <div class="desktop__cards">
-            <img
-              tabindex="0"
-              class="img2"
-              src="./images/Snapshoot Portfolio2.svg"
-              alt="Project image"
-            />
-            <div class="desktop__clients__info2">
-              <h tabindex="0" class="desktop__project__title"
-                >Multi-Post Stories</h
-              >
-              <ul class="desktop__client">
-                <li tabindex="0" class="desktop__project__name">FACEBOOK</li>
-                <li class="desktop__counter">
-                  <img src="./images/Counter.svg" alt="period" />
-                </li>
-                <li tabindex="0" class="desktop__project__role">
-                  Back End Dev
-                </li>
-                <li class="desktop__counter">
-                  <img src="./images/Counter.svg" alt="period" />
-                </li>
-                <li tabindex="0" class="desktop__year">2015</li>
-              </ul>
-              <p tabindex="0" class="desktop__project__description">
-                Experimental content creation feature that allows users to add
-                to an existing story over the course of a day without spamming
-                their friends.
-              </p>
-              <ul class="desktop__tags">
-                <li class="desktop__tag__language">
-                  <a href="#" class="desktop__language">html</a>
-                </li>
-                <li class="desktop__tag__language">
-                  <a href="#" class="desktop__language">Ruby on rails</a>
-                </li>
-                <li class="desktop__tag__language">
-                  <a href="#" class="desktop__language">css</a>
-                </li>
-                <li class="desktop__tag__language">
-                  <a href="#" class="desktop__language">javaScript</a>
-                </li>
-              </ul>
-              <button type="button" class="btn4" data-modal-target="#2" id="2">
-                <a href="#" class="see__project">See Project</a>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="desktop__works">
-          <div class="desktop__cards">
-            <img
-              tabindex="0"
-              src="./images/Snapshoot Portfolio3.svg"
-              alt="Project image"
-            />
-            <div class="desktop__clients__info">
-              <h tabindex="0" class="desktop__project__title">Facebook 360</h>
-              <ul class="desktop__client">
-                <li tabindex="0" class="desktop__project__name">FACEBOOK</li>
-                <li class="desktop__counter">
-                  <img tabindex="0" src="./images/Counter.svg" alt="period" />
-                </li>
-                <li tabindex="0" class="desktop__project__role">
-                  Back End Dev
-                </li>
-                <li class="desktop__counter">
-                  <img tabindex="0" src="./images/Counter.svg" alt="period" />
-                </li>
-                <li tabindex="0" class="desktop__year">2015</li>
-              </ul>
-              <p tabindex="0" class="desktop__project__description">
-                Exploring the future of media in Facebook's first Virtual
-                Reality app; a place to discover and enjoy 360 photos and videos
-                on Gear VR.
-              </p>
-              <ul class="desktop__tags">
-                <li class="desktop__tag__language">
-                  <a href="#" class="desktop__language">html</a>
-                </li>
-                <li class="desktop__tag__language">
-                  <a href="#" class="desktop__language">Ruby on rails</a>
-                </li>
-                <li class="desktop__tag__language">
-                  <a href="#" class="desktop__language">css</a>
-                </li>
-                <li class="desktop__tag__language">
-                  <a href="#" class="desktop__language">javaScript</a>
-                </li>
-              </ul>
-              <button type="button" class="btn4" data-modal-target="#3" id="3">
-                <a href="#" class="see__project">See Project</a>
-              </button>
-            </div>
-            <img
-              tabindex="0"
-              class="hand__cursor"
-              src="./images/hand-cursor 1.png"
-              alt="hand cursor image"
-            />
-          </div>
-        </div>
-
-        <div class="desktop__works2">
-          <div class="desktop__cards">
-            <img
-              tabindex="0"
-              class="img2"
-              src="./images/Snapshoot Portfolio4.svg"
-              alt="Project image"
-            />
-            <div class="desktop__clients__info2">
-              <h tabindex="0" class="desktop__project__title"
-                >Uber Navigation</h
-              >
-              <ul class="desktop__client">
-                <li tabindex="0" class="desktop__project__name">Uber</li>
-                <li class="desktop__counter">
-                  <img tabindex="0" src="./images/Counter.svg" alt="period" />
-                </li>
-                <li tabindex="0" class="desktop__project__role">
-                  Lead Developer
-                </li>
-                <li class="desktop__counter">
-                  <img tabindex="0" src="./images/Counter.svg" alt="period" />
-                </li>
-                <li tabindex="0" class="desktop__year">2015</li>
-              </ul>
-              <p tabindex="0" class="desktop__project__description">
-                A smart assistant to make driving more safe, efficient, and fun
-                by unlocking your most expensive computer: your car.
-              </p>
-              <ul class="desktop__tags">
-                <li class="desktop__tag__language">
-                  <a href="#" class="desktop__language">html</a>
-                </li>
-                <li class="desktop__tag__language">
-                  <a href="#" class="desktop__language">Ruby on rails</a>
-                </li>
-                <li class="desktop__tag__language">
-                  <a href="#" class="desktop__language">css</a>
-                </li>
-                <li class="desktop__tag__language">
-                  <a href="#" class="desktop__language">javaScript</a>
-                </li>
-              </ul>
-              <button type="button" class="btn4" data-modal-target="#4" id="4">
-                <a href="#" class="see__project">See Project</a>
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
+      <section class="allProjects"></section>
 
       <!-- /**
         *! Works Section Here.
         **/ -->
 
-      <section class="works">
-        <div class="works__cards" id="portfolio">
-          <img tabindex="0" src="./images/card-1.svg" alt="Project image" />
-          <h tabindex="0" class="project__title">Tonic</h>
-          <ul class="client">
-            <li tabindex="0" class="project__name">Canopy</li>
-            <li class="counter">
-              <img tabindex="0" src="./images/Counter.svg" alt="period" />
-            </li>
-            <li tabindex="0" class="project__role">Back End Dev</li>
-            <li class="counter">
-              <img tabindex="0" src="./images/Counter.svg" alt="period" />
-            </li>
-            <li tabindex="0" class="year">2015</li>
-          </ul>
-          <p tabindex="0" class="project__description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="tags">
-            <li class="html">
-              <a href="#" class="language">html</a>
-            </li>
-            <li class="css">
-              <a href="#" class="language">css</a>
-            </li>
-            <li class="javascript">
-              <a href="#" class="language">JavaScript</a>
-            </li>
-          </ul>
-          <button type="button" class="btn" data-model-target="#modal" id="open">
-            <a href="#" class="see__project1">See Project</a>
-          </button>
-        </div>
-
-        <div class="works__cards">
-          <img tabindex="0" src="./images/card-2.svg" alt="Project image" />
-          <h tabindex="0" class="project__title">Multi-Post Stories</h>
-          <ul class="client">
-            <li tabindex="0" class="project__name">Canopy</li>
-            <li class="counter">
-              <img tabindex="0" src="./images/Counter.svg" alt="period" />
-            </li>
-            <li tabindex="0" class="project__role">Back End Dev</li>
-            <li class="counter">
-              <img tabindex="0" src="./images/Counter.svg" alt="period" />
-            </li>
-            <li tabindex="0" class="year">2015</li>
-          </ul>
-          <p tabindex="0" class="project__description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="tags">
-            <li class="html">
-              <a href="#" class="language">html</a>
-            </li>
-            <li class="css">
-              <a href="#" class="language">css</a>
-            </li>
-            <li class="javascript">
-              <a href="#" class="language">JavaScript</a>
-            </li>
-          </ul>
-          <button type="button" class="btn" data-model-target="#modal" id="open">
-            <a href="#" class="see__project1">See Project</a>
-          </button>
-        </div>
-
-        <div class="works__cards">
-          <img tabindex="0" src="./images/card-3.svg" alt="Project image" />
-          <h tabindex="0" class="project__title">Tonic</h>
-          <ul class="client">
-            <li tabindex="0" class="project__name">Canopy</li>
-            <li class="counter">
-              <img tabindex="0" src="./images/Counter.svg" alt="Period" />
-            </li>
-            <li tabindex="0" class="project__role">Back End Dev</li>
-            <li class="counter">
-              <img tabindex="0" src="./images/Counter.svg" alt="Period" />
-            </li>
-            <li tabindex="0" class="year">2015</li>
-          </ul>
-          <p tabindex="0" class="project__description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
-          </p>
-          <ul class="tags">
-            <li class="html">
-              <a href="#" class="language">html</a>
-            </li>
-            <li class="css">
-              <a href="#" class="language">css</a>
-            </li>
-            <li class="javascript">
-              <a href="#" class="language">JavaScript</a>
-            </li>
-          </ul>
-          <button type="button" class="btn" data-model-target="#modal" id="open">
-            <a href="#" data-model-target="#modal" class="see__project1">See Project</a>
-          </button>
-        </div>
-      </section>
-    </div>
-
-    <!-- /**
+      <!-- /**
         *! About Myself Section Here.
         **/ -->
 
-    <section class="about__myself__container">
-      <div class="about__self" id="about__me">
-        <h tabindex="0" class="about__myself__title"
-          >About<br />
-          Myself</h
-        >
-        <p tabindex="0" class="about__myself__description">
-          Hello I'm a software developer! I can help you build a product ,
-          feature or website Look through some of my work and experience! If you
-          like what you see and have a project you need coded, don't hestiate to
-          contact me.
-        </p>
-        <h class="about__myself__connect">
-          <a href="#">LET'S CONNECT</a>
-        </h>
-        <ul class="about__myself__socials">
-          <li class="github">
-            <a href="#">
-              <img src="./images/github.svg" alt="GitHub icon" />
-            </a>
-          </li>
-          <li class="linkedin">
-            <a href="#">
-              <img src="./images/Linkedin icon.svg" alt="Linkedin icon" />
-            </a>
-          </li>
-          <li class="angellist">
-            <a href="#">
-              <img src="./images/angellist.svg" alt="Angellist icon" />
-            </a>
-          </li>
-          <li class="twitter">
-            <a href="#">
-              <img src="./images/twitter.svg" alt="Twitter icon" />
-            </a>
-          </li>
-          <li class="medium">
-            <a href="#">
-              <img src="./images/medium.svg" alt="Medium icon" />
-            </a>
-          </li>
-        </ul>
-        <button type="button" class="btn2">
-          <a href="#" class="resume">Get my resume</a>
-        </button>
-      </div>
-
-      <div class="technologies">
-        <ul class="skills__list">
-          <li tabindex="0" class="about__myself__language">Language</li>
-          <li tabindex="0" class="drop__down__icon">
-            <img src="./images/dropdown.svg" alt="Arrow icon" />
-          </li>
-        </ul>
-        <div class="language__list__container">
-          <div class="language__list">
-            <img tabindex="0" src="./images/js.svg" alt="Javascript icon" />
-            <h2 tabindex="0" class="code">JavaScript</h2>
-          </div>
-
-          <div class="language__list">
-            <img tabindex="0" src="./images/html.svg" alt="HTML icon" />
-            <h2 tabindex="0" class="code">HTML</h2>
-          </div>
-
-          <div class="language__list">
-            <img tabindex="0" src="./images/css.svg" alt="CSS icon" />
-            <h2 tabindex="0" class="code">CSS</h2>
-          </div>
+      <section class="about__myself__container">
+        <div class="about__self" id="about__me">
+          <h tabindex="0" class="about__myself__title"
+            >About<br />
+            Myself</h
+          >
+          <p tabindex="0" class="about__myself__description">
+            Hello I'm a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don't
+            hestiate to contact me.
+          </p>
+          <h class="about__myself__connect">
+            <a href="#">LET'S CONNECT</a>
+          </h>
+          <ul class="about__myself__socials">
+            <li class="github">
+              <a href="#">
+                <img src="./images/github.svg" alt="GitHub icon" />
+              </a>
+            </li>
+            <li class="linkedin">
+              <a href="#">
+                <img src="./images/Linkedin icon.svg" alt="Linkedin icon" />
+              </a>
+            </li>
+            <li class="angellist">
+              <a href="#">
+                <img src="./images/angellist.svg" alt="Angellist icon" />
+              </a>
+            </li>
+            <li class="twitter">
+              <a href="#">
+                <img src="./images/twitter.svg" alt="Twitter icon" />
+              </a>
+            </li>
+            <li class="medium">
+              <a href="#">
+                <img src="./images/medium.svg" alt="Medium icon" />
+              </a>
+            </li>
+          </ul>
+          <button type="button" class="btn2">
+            <a href="#" class="resume">Get my resume</a>
+          </button>
         </div>
 
-        <ul class="first-frame">
-          <li tabindex="0" class="framework">
-            <h>Framework</h>
-          </li>
+        <div class="about__technologies">
+          <ul class="skills__list">
+            <li tabindex="0" class="about__myself__language">Language</li>
+            <li tabindex="0" class="drop__down__icon">
+              <img src="./images/dropdown.svg" alt="Arrow icon" />
+            </li>
+          </ul>
+          <div class="language__list__container">
+            <div class="language__list">
+              <img tabindex="0" src="./images/js.svg" alt="Javascript icon" />
+              <h2 tabindex="0" class="code">JavaScript</h2>
+            </div>
 
-          <li tabindex="0" class="right__icon">
+            <div class="language__list">
+              <img tabindex="0" src="./images/html.svg" alt="HTML icon" />
+              <h2 tabindex="0" class="code">HTML</h2>
+            </div>
+
+            <div class="language__list">
+              <img tabindex="0" src="./images/css.svg" alt="CSS icon" />
+              <h2 tabindex="0" class="code">CSS</h2>
+            </div>
+          </div>
+
+          <ul class="first-frame">
+            <li tabindex="0" class="framework">
+              <h>Framework</h>
+            </li>
+
+            <li tabindex="0" class="right__icon">
+              <img
+                src="./images/right facing union.svg"
+                alt="right-facing-union-button"
+              />
+            </li>
+          </ul>
+          <div tabindex="0" class="bottom-separator">
+            <hr />
+          </div>
+
+          <div class="second-frame">
+            <h tabindex="0" class="skills">Skills</h>
             <img
+              tabindex="0"
+              class="second__icon"
               src="./images/right facing union.svg"
-              alt="right-facing-union-button"
+              alt=""
             />
-          </li>
-        </ul>
-        <div tabindex="0" class="bottom-separator">
-          <hr />
+          </div>
+          <div tabindex="0" class="bottom-separator">
+            <hr />
+          </div>
         </div>
+      </section>
 
-        <div class="second-frame">
-          <h tabindex="0" class="skills">Skills</h>
-          <img
-            tabindex="0"
-            class="second__icon"
-            src="./images/right facing union.svg"
-            alt=""
-          />
-        </div>
-        <div tabindex="0" class="bottom-separator">
-          <hr />
-        </div>
-      </div>
-    </section>
-
-    <!-- /**
+      <!-- /**
         *! Footer Section Here.
         **/ -->
 
-    <section class="contact__form__section" id="contact">
-      <h2 class="contact__form__title">Contact Me</h2>
-      <p class="contact__form__description">
-        If you have an application you are interested in developing, a feature
-        that you need built or a project that needs coding. I'd love to help
-        with it
-      </p>
+      <section class="contact__form__section" id="contact">
+        <h2 class="contact__form__title">Contact Me</h2>
+        <p class="contact__form__description">
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I'd love to help
+          with it
+        </p>
 
+form-validation
       <form action="https://formspree.io/f/moqbgzon" method="post" id="form">
         <ul class="form">
           <li>
@@ -555,6 +252,7 @@
               id="email"
             />
           </li>
+          <small class="small"></small>
           <li>
             <label for="msg"></label>
             <textarea
@@ -566,7 +264,7 @@
               maxlength="500"
             ></textarea>
           </li>
-          <li></li>
+          
           <li class="btn3">
             <a href="">
               <button class="get__in__touch btn3" type="submit">
@@ -580,6 +278,59 @@
         </div>
       </form>
     </section>
-  </div>
+    <script src="main.js"></script>
+    <script src="index.js"></script>
+
+        <form action="https://formspree.io/f/moqbgzon" method="post" id="form">
+          <ul class="form">
+            <li>
+              <label for="name"></label>
+              <input
+                type="text"
+                name="fullName"
+                class="name"
+                placeholder="Gladwin"
+                required
+                maxlength="30"
+                id="username"
+              />
+            </li>
+            <li>
+              <label for="mail"></label>
+              <input
+                type="email"
+                name="email"
+                class="email"
+                required
+                placeholder="tgramantso@gmail.com"
+                id="email"
+              />
+            </li>
+            <li>
+              <label for="msg"></label>
+              <textarea
+                name="user_message"
+                name="textarea"
+                class="msg"
+                placeholder="Write your message here"
+                required
+                maxlength="500"
+              ></textarea>
+            </li>
+            <li></li>
+            <li class="btn3">
+              <a href="">
+                <button class="get__in__touch btn3" type="submit">
+                  Get in touch
+                </button>
+              </a>
+            </li>
+          </ul>
+          <div class="shape">
+            <img src="./images/Shape.svg" alt="bottom line" class="shape" />
+          </div>
+        </form>
+      </section>
+    </div>
   </body>
 </html>
