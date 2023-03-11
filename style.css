@@ -722,14 +722,6 @@ textarea::placeholder {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
-  background-color: white;
-  position: fixed;
-  top: 20px;
-  border: 1px solid #dfe1e6;
-  border-radius: 16px;
-  padding: 16px;
-  gap: 12px;
   width: 100%;
 }
 
