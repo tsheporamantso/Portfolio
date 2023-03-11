@@ -1,38 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300&display=swap");
-
 /**
 *! Color variables
 **/
-
 /**
 *! Break points variables
 **/
-
 /**
 *! Media Query Renderer
 **/
-
 /**
 *! Removing default browser style
 **/
 * {
   box-sizing: border-box;
 }
-
 * body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   background-color: #e5e5e5;
 }
-
 * a {
   text-decoration: none;
 }
-
 * li {
   list-style: none;
 }
-
 * img:hover {
   transform: scale(1.04);
 }
@@ -882,18 +874,15 @@ textarea::placeholder {
     box-sizing: border-box;
     font-size: 100%;
   }
-
   .hamburger,
   .nav__menu__mobile,
   .shape,
   .works {
     display: none;
   }
-
   .logo {
     margin-left: 200px;
   }
-
   .navbar {
     width: 1565px;
     display: flex;
@@ -902,7 +891,6 @@ textarea::placeholder {
     justify-content: space-between;
     background-color: white;
   }
-
   .nav__menu__desktop {
     display: flex;
     flex-direction: row;
@@ -915,18 +903,15 @@ textarea::placeholder {
     color: #344563;
     gap: 20px;
   }
-
   .nav__links {
     font-weight: 500;
     font-size: 15px;
     color: #344563;
     transition: 0.7s;
   }
-
   .nav__links:hover {
     background-color: #e5e5e5;
   }
-
   .headline {
     background-image: url("./images/Header bg.svg");
     background-position: top center;
@@ -934,7 +919,6 @@ textarea::placeholder {
     width: 1565px;
     border-radius: 0 0 0 70px;
   }
-
   .header__title {
     font-weight: 700;
     font-size: 48px;
@@ -943,7 +927,6 @@ textarea::placeholder {
     letter-spacing: 0.037px;
     margin: 0;
   }
-
   .header__description {
     font-weight: 400;
     font-size: 20px;
@@ -952,22 +935,18 @@ textarea::placeholder {
     padding-top: 12px;
     margin: 0;
   }
-
   .header__connect {
     margin-right: 595px;
   }
-
   .header__social__media {
     margin-right: 595px;
   }
-
   .desktop__works {
     display: grid;
     grid-template-columns: 1565px;
     place-items: center;
     margin-top: 100px;
   }
-
   .desktop__cards {
     display: flex;
     flex-direction: row;
@@ -982,7 +961,6 @@ textarea::placeholder {
     margin: 0;
     gap: 20px;
   }
-
   .desktop__clients__info {
     display: flex;
     flex-direction: column;
@@ -990,7 +968,6 @@ textarea::placeholder {
     justify-content: flex-start;
     margin-bottom: 80px;
   }
-
   .desktop__project__title {
     font-weight: 700;
     font-size: 40px;
@@ -998,7 +975,6 @@ textarea::placeholder {
     color: #091e42;
     align-self: flex-start;
   }
-
   .desktop__client {
     display: flex;
     flex-direction: row;
@@ -1007,35 +983,29 @@ textarea::placeholder {
     width: 100%;
     padding: 0;
   }
-
   .desktop__project__name {
     font-weight: 500;
     font-size: 18px;
     color: #344563;
   }
-
   .desktop__counter {
     color: #c1c7d0;
   }
-
   .desktop__project__role {
     font-weight: 400;
     font-size: 18px;
     color: #6b778c;
   }
-
   .desktop__year {
     font-weight: 400;
     font-size: 18px;
     color: #6b778c;
   }
-
   .desktop__project__description {
     font-weight: 400;
     font-size: 16px;
     color: #344563;
   }
-
   .desktop__tags {
     display: flex;
     flex-direction: row;
@@ -1044,23 +1014,19 @@ textarea::placeholder {
     width: 100%;
     padding: 0;
   }
-
   .desktop__tags:hover {
     transform: scale(1.04);
   }
-
   .desktop__tag__language {
     background-color: #ebebff;
     border-radius: 8px;
     padding: 4px 12px;
   }
-
   .desktop__language {
     font-weight: 500;
     font-size: 12px;
     color: #6070ff;
   }
-
   .btn4 {
     align-self: flex-start;
     background-color: white;
@@ -1071,15 +1037,12 @@ textarea::placeholder {
     max-width: -moz-max-content;
     max-width: max-content;
   }
-
   .btn4:hover {
     background-color: #6070ff;
   }
-
   .btn4:active {
     background-color: #2230d2;
   }
-
   .see__project {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -1088,23 +1051,19 @@ textarea::placeholder {
     letter-spacing: 0.03em;
     color: #396df2;
   }
-
   .see__project:hover {
     color: white;
   }
-
   .desktop__works2 {
     display: grid;
     grid-template-columns: 1565px;
     place-items: center;
     margin-top: 100px;
   }
-
   .img2 {
     position: relative;
     left: 585px;
   }
-
   .desktop__clients__info2 {
     display: flex;
     flex-direction: column;
@@ -1115,21 +1074,17 @@ textarea::placeholder {
     padding-left: 12px;
     right: 565px;
   }
-
   .hand__cursor {
     position: relative;
     right: 108px;
     top: 108px;
   }
-
   .about__self {
     width: 40%;
   }
-
   .technologies {
     width: 60%;
   }
-
   .about__myself__container {
     display: flex;
     flex-direction: row;
@@ -1138,12 +1093,10 @@ textarea::placeholder {
     width: 1565px;
     padding: 50px 60px 0 60px;
   }
-
   .language__list__container {
     display: flex;
     flex-direction: row;
   }
-
   .language__list {
     margin: 10px;
     display: flex;
@@ -1152,36 +1105,30 @@ textarea::placeholder {
     width: 122px;
     height: 120px;
   }
-
   .about__myself__title {
     position: relative;
     bottom: 10%;
     padding: 12px;
   }
-
   .about__myself__description {
     position: relative;
     bottom: 20%;
     padding: 12px;
   }
-
   .about__myself__connect {
     position: relative;
     bottom: 30%;
     padding: 12px;
   }
-
   .about__myself__socials {
     position: relative;
     bottom: 40%;
     padding: 19px;
   }
-
   .btn2 {
     position: relative;
     bottom: 50%;
   }
-
   .contact__form__section {
     background-image: url("./images/contact form background shapes.svg");
     background-repeat: no-repeat;
@@ -1189,17 +1136,14 @@ textarea::placeholder {
     width: 1565px;
     margin-top: -300px;
   }
-
   .contact__form__description {
     max-width: 569px;
   }
-
   .btn3 {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
   .d__modal {
     display: flex;
     flex-direction: column;
@@ -1211,7 +1155,6 @@ textarea::placeholder {
     height: -moz-max-content;
     height: max-content;
   }
-
   .dt__modal {
     height: 580px;
     width: 1156px;
@@ -1228,4 +1171,4 @@ textarea::placeholder {
     overflow-y: hidden;
     margin: auto;
   }
-}
+}/*# sourceMappingURL=style.css.map */
