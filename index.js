@@ -1,10 +1,9 @@
-storage
+/* eslint-disable no-use-before-define */
 /* eslint-disable no-undef */
 
 /**
    *! Responsive Mobile Menu Here
    * * */
-
 
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav__menu__mobile');
@@ -19,7 +18,6 @@ document.querySelectorAll('.dt__link').forEach((n) => n
     hamburger.classList.remove('active');
     navMenu.classList.remove('active');
   }));
-
 
 const fullName = document.querySelector('#username');
 const feedback = document.querySelector('.msg');
@@ -65,4 +63,3 @@ function checkInputs(event) {
 }
 
 form.addEventListener('submit', checkInputs);
-
