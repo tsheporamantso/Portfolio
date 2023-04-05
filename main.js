@@ -5,54 +5,54 @@
 const projects = [
   {
     id: 0,
-    mobTitle: 'Tonic',
-    desTitle: 'Tonic',
-    client: ['Canopy', 'Back End Dev', '2015'],
+    mobTitle: 'To-Do List',
+    desTitle: 'Awesome Book',
+    client: ['Microverse', 'Front End Dev', '2023'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    descriptionMod: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    descriptionMod: 'This Awesome books project is based on an online website that allows users to add/remove books and their authors from a list of books or to form a library of books which are stored in a local storage.',
     technologies: ['html', 'css', 'JavaScript'],
     desTechnologies: ['html', 'css', 'JavaScript', 'github', 'ruby', 'Bootstraps'],
-    featureImageMob: './images/card-1.svg',
-    featureImageDes: './images/Snapshoot Portfolio1.png',
-    live: 'https://tsheporamantso.github.io/Portfolio/',
+    featureImageMob: './images/Awesome books2.png',
+    featureImageDes: './images/awesome books 3.png',
+    live: 'https://tsheporamantso.github.io/Awesome_books/',
     source: 'https://tsheporamantso.github.io/Portfolio/',
   },
 
   {
     id: 1,
     mobTitle: 'Multi-Post Stories',
-    desTitle: 'Tonic',
-    client: ['Canopy', 'Back End Dev', '2015'],
+    desTitle: 'To-Do List',
+    client: ['Microverse', 'Front End Dev', '2023'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    descriptionMod: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    descriptionMod: 'This project is an online To Do list that display users activities planned to do, also allow user to add task planned to accomplish and delete those already done.',
     technologies: ['html', 'css', 'JavaScript'],
     desTechnologies: ['html', 'css', 'JavaScript', 'github', 'ruby', 'Bootstraps'],
-    featureImageMob: './images/card-2.svg',
-    featureImageDes: './images/Snapshoot Portfolio2.svg',
-    live: 'https://tsheporamantso.github.io/Portfolio/',
+    featureImageMob: './images/To-Do-List.png',
+    featureImageDes: './images/To-Do-List.png',
+    live: 'https://tsheporamantso.github.io/To-Do-List/dist/',
     source: 'https://tsheporamantso.github.io/Portfolio/',
   },
 
   {
     id: 2,
-    mobTitle: 'Tonic',
-    desTitle: 'Tonic',
-    client: ['Canopy', 'Back End Dev', '2015'],
+    mobTitle: 'To-Do-List',
+    desTitle: 'United Nations Climate Change',
+    client: ['United Nations', 'Front End Dev', '2022'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    descriptionMod: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    descriptionMod: 'This project is about the United Nations Climate Change conference held in November 2022.',
     technologies: ['html', 'css', 'JavaScript'],
     desTechnologies: ['html', 'css', 'JavaScript', 'github', 'ruby', 'Bootstraps'],
-    featureImageMob: './images/card-3.svg',
-    featureImageDes: './images/Snapshoot Portfolio3.svg',
-    live: 'https://tsheporamantso.github.io/Portfolio/',
+    featureImageMob: './images/UN Climate Change.png',
+    featureImageDes: './images/to-do-list2.png',
+    live: ' https://tsheporamantso.github.io/First-Capstone-Project/',
     source: 'https://tsheporamantso.github.io/Portfolio/',
   },
 
   {
     id: 3,
-    mobTitle: 'Tonic',
-    desTitle: 'Tonic',
-    client: ['Canopy', 'Back End Dev', '2015'],
+    mobTitle: 'Awesome Books',
+    desTitle: 'Awesome Books',
+    client: ['Microverse', 'Front End Dev', '2023'],
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     descriptionMod: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     technologies: ['html', 'css', 'JavaScript'],
@@ -66,8 +66,8 @@ const projects = [
   {
     id: 4,
     desTitle: 'Multi-Post Stories',
-    mobTitle: 'Tonic',
-    client: ['FACEBOOK', 'Back End Dev', '2015'],
+    mobTitle: 'Awesome Books',
+    client: ['Microverse', 'Front End Dev', '2023'],
     description: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
     descriptionMod: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
     technologies: ['html', 'Ruby on rails', 'css', 'JavaScript'],
@@ -80,30 +80,30 @@ const projects = [
 
   {
     id: 5,
-    desTitle: 'Facebook 360',
-    mobTitle: 'Tonic',
-    client: ['FACEBOOK', 'Back End Dev', '2015'],
+    desTitle: 'Awesome Books',
+    mobTitle: 'Awesome Books',
+    client: ['Microverse', 'Front End Dev', '2023'],
     description: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-    descriptionMod: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    descriptionMod: 'This Awesome books project is based on an online website that allows users to add/remove books and their authors from a list of books or to form a library of books which are stored in a local storage.',
     technologies: ['html', 'Ruby on rails', 'css', 'JavaScript'],
     desTechnologies: ['html', 'css', 'JavaScript', 'github', 'ruby', 'Bootstraps'],
-    featureImageMob: './images/card-1.svg',
+    featureImageMob: './images/awesome books 3.png',
     featureImageDes: './images/Snapshoot Portfolio3.svg',
-    live: 'https://tsheporamantso.github.io/Portfolio/',
+    live: 'https://tsheporamantso.github.io/Awesome_books/',
     source: 'https://tsheporamantso.github.io/Portfolio/',
   },
 
   {
     id: 6,
-    desTitle: 'Uber Navigation',
-    client: ['Uber', 'Lead Developer', '2015'],
+    desTitle: 'United Nations',
+    client: ['UN', 'Lead Developer', '2022'],
     description: ' A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    descriptionMod: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    descriptionMod: 'This project is about the United Nations Climate Change conference held in November 2022.',
     technologies: ['html', 'Ruby on rails', 'css', 'JavaScript'],
     desTechnologies: ['html', 'css', 'JavaScript', 'github', 'ruby', 'Bootstraps'],
-    featureImageMob: './images/card-1.svg',
+    featureImageMob: './images/UN2.png',
     featureImageDes: './images/Snapshoot Portfolio4.svg',
-    live: 'https://tsheporamantso.github.io/Portfolio/',
+    live: 'https://tsheporamantso.github.io/First-Capstone-Project/',
     source: 'https://tsheporamantso.github.io/Portfolio/',
   },
 
@@ -133,27 +133,26 @@ function createCards() {
           <div class="desktop__cards">
             <img
               tabindex="0"
-              src="./images/Snapshoot Portfolio1.png"
+              src="./images/Awesome books2.png"
               alt="Project image"
             />
             <div class="desktop__clients__info">
-              <h tabindex="0" class="desktop__project__title">Tonic</h>
+              <h tabindex="0" class="desktop__project__title">Awesome Books</h>
               <ul class="desktop__client">
-                <li tabindex="0" class="desktop__project__name">Canopy</li>
+                <li tabindex="0" class="desktop__project__name">Microverse</li>
                 <li class="desktop__counter">
                   <img tabindex="0" src="./images/Counter.svg" alt="period" />
                 </li>
                 <li tabindex="0" class="desktop__project__role">
-                  Back End Dev
+                  Front End Dev
                 </li>
                 <li class="desktop__counter">
                   <img tabindex="0" src="./images/Counter.svg" alt="period" />
                 </li>
-                <li tabindex="0" class="desktop__year">2015</li>
+                <li tabindex="0" class="desktop__year">2023</li>
               </ul>
               <p tabindex="0" class="desktop__project__description">
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required.
+              This Awesome books project is based on an online website that allows users to add/remove books.
               </p>
               <ul class="desktop__tags">
                 <li class="desktop__tag__language">
@@ -178,30 +177,28 @@ function createCards() {
             <img
               tabindex="0"
               class="img2"
-              src="./images/Snapshoot Portfolio2.svg"
+              src="./images/To-Do-List.png"
               alt="Project image"
             />
             <div class="desktop__clients__info2">
               <h tabindex="0" class="desktop__project__title"
-                >Multi-Post Stories</h
+                >To-Do List</h
               >
               <ul class="desktop__client">
-                <li tabindex="0" class="desktop__project__name">FACEBOOK</li>
+                <li tabindex="0" class="desktop__project__name">Microverse</li>
                 <li class="desktop__counter">
                   <img src="./images/Counter.svg" alt="period" />
                 </li>
                 <li tabindex="0" class="desktop__project__role">
-                  Back End Dev
+                  Front End Dev
                 </li>
                 <li class="desktop__counter">
                   <img src="./images/Counter.svg" alt="period" />
                 </li>
-                <li tabindex="0" class="desktop__year">2015</li>
+                <li tabindex="0" class="desktop__year">2023</li>
               </ul>
               <p tabindex="0" class="desktop__project__description">
-                Experimental content creation feature that allows users to add
-                to an existing story over the course of a day without spamming
-                their friends.
+              This project is an online To Do list that display users activities planned to do, also allow user to add task planned to accomplish and delete those already done.
               </p>
               <ul class="desktop__tags">
                 <li class="desktop__tag__language">
@@ -228,18 +225,18 @@ function createCards() {
           <div class="desktop__cards">
             <img
               tabindex="0"
-              src="./images/Snapshoot Portfolio3.svg"
+              src="./images/UN Climate Change.png"
               alt="Project image"
             />
             <div class="desktop__clients__info">
-              <h tabindex="0" class="desktop__project__title">Facebook 360</h>
+              <h tabindex="0" class="desktop__project__title">United Nations Climate Change</h>
               <ul class="desktop__client">
-                <li tabindex="0" class="desktop__project__name">FACEBOOK</li>
+                <li tabindex="0" class="desktop__project__name">United Nations</li>
                 <li class="desktop__counter">
                   <img tabindex="0" src="./images/Counter.svg" alt="period" />
                 </li>
                 <li tabindex="0" class="desktop__project__role">
-                  Back End Dev
+                  Front End Dev
                 </li>
                 <li class="desktop__counter">
                   <img tabindex="0" src="./images/Counter.svg" alt="period" />
@@ -247,9 +244,7 @@ function createCards() {
                 <li tabindex="0" class="desktop__year">2015</li>
               </ul>
               <p tabindex="0" class="desktop__project__description">
-                Exploring the future of media in Facebook's first Virtual
-                Reality app; a place to discover and enjoy 360 photos and videos
-                on Gear VR.
+              This project is about the United Nations Climate Change conference held in November 2022.
               </p>
               <ul class="desktop__tags">
                 <li class="desktop__tag__language">
@@ -331,22 +326,21 @@ function createCards() {
 
       <section class="works">
         <div class="works__cards" id="portfolio">
-          <img tabindex="0" src="./images/card-1.svg" alt="Project image" />
-          <h tabindex="0" class="project__title">Tonic</h>
+          <img tabindex="0" src="./images/to-do-list2.png" />
+          <h tabindex="0" class="project__title">To-Do List</h>
           <ul class="client">
-            <li tabindex="0" class="project__name">Canopy</li>
+            <li tabindex="0" class="project__name">Microverse</li>
             <li class="counter">
               <img tabindex="0" src="./images/Counter.svg" alt="period" />
             </li>
-            <li tabindex="0" class="project__role">Back End Dev</li>
+            <li tabindex="0" class="project__role">Front End Dev</li>
             <li class="counter">
               <img tabindex="0" src="./images/Counter.svg" alt="period" />
             </li>
-            <li tabindex="0" class="year">2015</li>
+            <li tabindex="0" class="year">2023</li>
           </ul>
           <p tabindex="0" class="project__description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
+          This project is an online To Do list that display users activities planned to do, also allow user to add task planned to accomplish and delete those already done.
           </p>
           <ul class="tags">
             <li class="html">
@@ -365,22 +359,21 @@ function createCards() {
         </div>
 
         <div class="works__cards">
-          <img tabindex="0" src="./images/card-2.svg" alt="Project image" />
-          <h tabindex="0" class="project__title">Multi-Post Stories</h>
+          <img tabindex="0" src="./images/awesome books 3.png" alt="Project image" />
+          <h tabindex="0" class="project__title">Awesome Books</h>
           <ul class="client">
-            <li tabindex="0" class="project__name">Canopy</li>
+            <li tabindex="0" class="project__name">Microverse</li>
             <li class="counter">
               <img tabindex="0" src="./images/Counter.svg" alt="period" />
             </li>
-            <li tabindex="0" class="project__role">Back End Dev</li>
+            <li tabindex="0" class="project__role">Front End Dev</li>
             <li class="counter">
               <img tabindex="0" src="./images/Counter.svg" alt="period" />
             </li>
-            <li tabindex="0" class="year">2015</li>
+            <li tabindex="0" class="year">2023</li>
           </ul>
           <p tabindex="0" class="project__description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
+          This Awesome books project is based on an online website that allows users to add/remove books and their authors from a list of books or to form a library of books which are stored in a local storage.
           </p>
           <ul class="tags">
             <li class="html">
@@ -399,22 +392,21 @@ function createCards() {
         </div>
 
         <div class="works__cards">
-          <img tabindex="0" src="./images/card-3.svg" alt="Project image" />
-          <h tabindex="0" class="project__title">Tonic</h>
+          <img tabindex="0" src="./images/UN2.png" alt="Project image" />
+          <h tabindex="0" class="project__title">United Nations Climate Change</h>
           <ul class="client">
-            <li tabindex="0" class="project__name">Canopy</li>
+            <li tabindex="0" class="project__name">UN</li>
             <li class="counter">
               <img tabindex="0" src="./images/Counter.svg" alt="Period" />
             </li>
-            <li tabindex="0" class="project__role">Back End Dev</li>
+            <li tabindex="0" class="project__role">Front End Dev</li>
             <li class="counter">
               <img tabindex="0" src="./images/Counter.svg" alt="Period" />
             </li>
-            <li tabindex="0" class="year">2015</li>
+            <li tabindex="0" class="year">2022</li>
           </ul>
           <p tabindex="0" class="project__description">
-            A daily selection of privately personalized reads; no accounts or
-            sign-ups required.
+          This project is about the United Nations Climate Change conference held in November 2022.
           </p>
           <ul class="tags">
             <li class="html">
@@ -450,7 +442,7 @@ document.querySelectorAll('.see__project1').forEach((el, index) => {
     modal.innerHTML = `
     <div id="modal">
     <div class="modal__header">
-    <h class="modal__title" id="modal__title">Tonic</h>
+    <h class="modal__title" id="modal__title">${projects[index].desTitle}</h>
     <button data-close-button class="close-btn" id="close-btn">&times;</button>
   </div>
   <ul class="modal__client" id="modal__client">

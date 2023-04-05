@@ -716,13 +716,13 @@ textarea::placeholder {
   box-sizing: border-box;
   background-color: #ffff;
   position: absolute;
-  left: 20%;
+  left: 9%;
   top: 25%;
-  height: 653px;
+  height: 790px;
   width: 343px;
   border: 1px solid $color-8;
   border-radius: 16px;
-  padding: 0;
+  padding: 7px;
 }
 
 .mobile-popup {
@@ -831,7 +831,7 @@ textarea::placeholder {
   display: flex;
   align-items: center;
   position: relative;
-  bottom: 58px;
+  bottom: 40px;
   gap: 20px;
   width: 100%;
   padding: 0;
@@ -1225,7 +1225,7 @@ textarea::placeholder {
     left: 215px;
     border-radius: 8px;
     width: 1156px;
-    height: 1163px;
+    height: 1350px;
     padding: 12px;
     z-index: 0;
   }
@@ -1418,7 +1418,7 @@ textarea::placeholder {
 .modal__tech {
   align-items: center;
   position: relative;
-  bottom: 40px;
+  bottom: 27px;
   gap: 15px;
   width: 100%;
   padding: 0;
@@ -1444,7 +1444,7 @@ textarea::placeholder {
   display: none;
   align-items: center;
   position: relative;
-  bottom: 58px;
+  // bottom: 58px;
   gap: 20px;
   width: 100%;
   padding: 0;
