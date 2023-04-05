@@ -15,7 +15,7 @@ const projects = [
     featureImageMob: './images/Awesome books2.png',
     featureImageDes: './images/awesome books 3.png',
     live: 'https://tsheporamantso.github.io/Awesome_books/',
-    source: 'https://tsheporamantso.github.io/Portfolio/',
+    source: 'https://github.com/tsheporamantso/Awesome_books',
   },
 
   {
