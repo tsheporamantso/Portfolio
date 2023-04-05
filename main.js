@@ -45,7 +45,7 @@ const projects = [
     featureImageMob: './images/UN Climate Change.png',
     featureImageDes: './images/to-do-list2.png',
     live: ' https://tsheporamantso.github.io/First-Capstone-Project/',
-    source: 'https://tsheporamantso.github.io/Portfolio/',
+    source: 'https://github.com/tsheporamantso/First-Capstone-Project',
   },
 
   {
