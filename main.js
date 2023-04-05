@@ -30,7 +30,7 @@ const projects = [
     featureImageMob: './images/To-Do-List.png',
     featureImageDes: './images/To-Do-List.png',
     live: 'https://tsheporamantso.github.io/To-Do-List/dist/',
-    source: 'https://tsheporamantso.github.io/Portfolio/',
+    source: 'https://github.com/tsheporamantso/To-Do-List',
   },
 
   {
@@ -90,7 +90,7 @@ const projects = [
     featureImageMob: './images/awesome books 3.png',
     featureImageDes: './images/Snapshoot Portfolio3.svg',
     live: 'https://tsheporamantso.github.io/Awesome_books/',
-    source: 'https://tsheporamantso.github.io/Portfolio/',
+    source: 'https://github.com/tsheporamantso/Awesome_books',
   },
 
   {
@@ -104,7 +104,7 @@ const projects = [
     featureImageMob: './images/UN2.png',
     featureImageDes: './images/Snapshoot Portfolio4.svg',
     live: 'https://tsheporamantso.github.io/First-Capstone-Project/',
-    source: 'https://tsheporamantso.github.io/Portfolio/',
+    source: 'https://github.com/tsheporamantso/First-Capstone-Project',
   },
 
 ];
